@@ -44,18 +44,18 @@ public class WebController {
       return mv;
   }
 
-    @PostMapping("/register-user")
-    public ModelAndView registration(
-      @RequestParam("firstname") String firstName,
-      @RequestParam("lastname") String lastName,
-      @RequestParam("email") String email,
-      @RequestParam("password") String password,
-      @RequestParam("confirm-password") String confirmPassword) {
-        Registration registerUser = new Registration(firstName, lastName, email, password);
-        registerUser.insertUser();
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName("redirect:/");
-        return mv;
-    }
+  @PostMapping("/register-user")
+  public ModelAndView registration(
+    @RequestParam("firstname") String firstName,
+    @RequestParam("lastname") String lastName,
+    @RequestParam("email") String email,
+    @RequestParam("password") String password,
+    @RequestParam("confirm-password") String confirmPassword) {
+      Registration registerUser = new Registration(firstName, lastName, email, password);
+      registerUser.insertUser();
+      ModelAndView mv = new ModelAndView();
+      mv.setViewName("redirect:/");
+      return mv;
+  }
 
 }
