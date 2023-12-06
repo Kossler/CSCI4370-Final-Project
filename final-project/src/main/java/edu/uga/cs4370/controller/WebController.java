@@ -19,6 +19,7 @@ public class WebController {
   @GetMapping("/")
   public ModelAndView root() {
       ModelAndView mv = new ModelAndView("Login");
+      mv.addObject("loginError", "");
       return mv;
   }
 
@@ -56,6 +57,12 @@ public class WebController {
       ModelAndView mv = new ModelAndView();
       mv.setViewName("redirect:/");
       return mv;
+  }
+
+  @GetMapping("/home")
+  public ModelAndView home() {
+    ModelAndView mv = new ModelAndView("Home ");
+    return mv;
   }
 
 }

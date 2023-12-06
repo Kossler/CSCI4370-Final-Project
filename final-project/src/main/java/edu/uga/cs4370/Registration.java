@@ -26,10 +26,10 @@ public class Registration {
       String sql = "INSERT INTO User (firstName, lastName, email, password) VALUES (?, ?, ?, ?)";
       Connection conn = DatabaseConnection.getConnection();
       PreparedStatement preparedStatement = conn.prepareStatement(sql);
-      preparedStatement.setString(0, firstName);
-      preparedStatement.setString(1, lastName);
-      preparedStatement.setString(2, email);
-      preparedStatement.setString(3, hashedPassword);
+      preparedStatement.setString(1, firstName);
+      preparedStatement.setString(2, lastName);
+      preparedStatement.setString(3, email);
+      preparedStatement.setString(4, hashedPassword);
       preparedStatement.executeUpdate();
     } catch (SQLException e) {
       e.printStackTrace();

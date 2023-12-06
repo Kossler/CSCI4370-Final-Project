@@ -4,20 +4,20 @@
     <meta charset="utf-8">
     <title>Login</title>
     <script>
-        window.onload = function() {
-            var loginError = '{{loginError}}'; // This will be rendered by the server if there's an error
-            if (loginError) {
-                alert(loginError);
-            }
-        };
-    </script>
+    window.onload = function() {
+        var loginError = '{{loginError}}';
+        if (loginError && loginError !== '') {
+            alert(loginError);
+        }
+    };
+</script>
 </head>
 <body>
   <div class="login-container">
     <h2>Login</h2>
-    <form action="/submit-your-login-form" method="post">
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username" required><br>
+    <form action="/login" method="post">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" required><br>
         <br/>   
         <label for="password">Password:</label><br>
         <input type="password" id="password" name="password" required><br>
