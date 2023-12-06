@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+</head>
+<body>
+  <div class="login-container">
+      <h2>Login</h2>
+      <form action="/submit-your-login-form" method="post">
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username" required><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required><br>
+
+          <input type="submit" value="Login">
+      </form>
+      <button onclick="location.href='/register'">Register</button>
+  </div>
+</body>
+</html>
