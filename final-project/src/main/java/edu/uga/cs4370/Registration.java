@@ -22,21 +22,17 @@ public class Registration {
   }
 
   public void insertUser() {
-    System.out.println(firstName);
-    System.out.println(lastName);
-    System.out.println(email);
-    System.out.println(hashedPassword);
-    // try {
-    //   String sql = "INSERT INTO User (firstName, lastName, email, password) VALUES (?, ?, ?, ?)";
-    //   Connection conn = DatabaseConnection.getConnection();
-    //   PreparedStatement preparedStatement = conn.prepareStatement(sql);
-    //   preparedStatement.setString(0, firstName);
-    //   preparedStatement.setString(1, lastName);
-    //   preparedStatement.setString(2, email);
-    //   preparedStatement.setString(3, hashedPassword);
-    //   preparedStatement.executeUpdate();
-    // } catch (SQLException e) {
-    //   e.printStackTrace();
-    // }
+    try {
+      String sql = "INSERT INTO User (firstName, lastName, email, password) VALUES (?, ?, ?, ?)";
+      Connection conn = DatabaseConnection.getConnection();
+      PreparedStatement preparedStatement = conn.prepareStatement(sql);
+      preparedStatement.setString(0, firstName);
+      preparedStatement.setString(1, lastName);
+      preparedStatement.setString(2, email);
+      preparedStatement.setString(3, hashedPassword);
+      preparedStatement.executeUpdate();
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
   }
 }

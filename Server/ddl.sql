@@ -1,4 +1,5 @@
 CREATE DATABASE IF NOT EXISTS finalprojectdb;
+USE finalprojectdb;
 
 DROP TABLE IF EXISTS Quarterbacks, Running_Backs, Full_Backs, Wide_Receivers, Tight_Ends, Kickers, Offensive_Line, Defensive_Line, Linebackers, Defensive_Backs, Punters, Player_Game_Statistics, Team_Game_Statistics, Games, Teams, Conferences, Stadiums;
 
