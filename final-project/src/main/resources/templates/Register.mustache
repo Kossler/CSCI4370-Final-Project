@@ -3,11 +3,22 @@
 <head>
     <meta charset="utf-8">
     <title>Register</title>
+    <script>
+        function validateForm() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirm-password").value;
+            if (password != confirmPassword) {
+                alert("Passwords do not match.");
+                return false; // Prevent form submission
+            }
+            return true; // Allow form submission
+        }
+    </script>
 </head>
 <body>
   <div class="registration-container">
         <h2>Register</h2>
-        <form action="/submit-your-registration-form" method="post">
+        <form action="/register-user" method="post" onsubmit="return validateForm()">
             <label for="firstname">First Name:</label><br>
             <input type="text" id="firstname" name="firstname" required><br>
             <br/>

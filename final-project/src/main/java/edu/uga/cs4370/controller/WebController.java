@@ -1,5 +1,6 @@
 package edu.uga.cs4370.controller;
 import edu.uga.cs4370.db.DatabaseConnection;
+import edu.uga.cs4370.Registration;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,14 +17,28 @@ import org.springframework.web.servlet.ModelAndView;
 public class WebController {
   
   @GetMapping("/")
-    public ModelAndView root() {
-        ModelAndView mv = new ModelAndView("Login");
-        return mv;
-    }
+  public ModelAndView root() {
+      ModelAndView mv = new ModelAndView("Login");
+      return mv;
+  }
 
   @GetMapping("/register")
-    public ModelAndView registration() {
-        ModelAndView mv = new ModelAndView("Register");
+  public ModelAndView registration() {
+      ModelAndView mv = new ModelAndView("Register");
+      return mv;
+  }
+
+    @PostMapping("/register-user")
+    public ModelAndView registration(
+      @RequestParam("firstname") String firstName,
+      @RequestParam("lastname") String lastName,
+      @RequestParam("email") String email,
+      @RequestParam("password") String password,
+      @RequestParam("confirm-password") String confirmPassword) {
+        Registration registerUser = new Registration(firstName, lastName, email, password);
+        registerUser.insertUser();
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("redirect:/");
         return mv;
     }
 
