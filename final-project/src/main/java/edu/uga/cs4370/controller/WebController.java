@@ -12,10 +12,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
 
 @Controller
 public class WebController {
-  
+
   @GetMapping("/")
   public ModelAndView root() {
       ModelAndView mv = new ModelAndView("Login");
@@ -26,15 +28,16 @@ public class WebController {
   @PostMapping("/login")
     public ModelAndView login(
       @RequestParam("email") String email,
-      @RequestParam("password") String password) {
+      @RequestParam("password") String password,
+      RedirectAttributes redirectAttributes) {
         ModelAndView mv = new ModelAndView();
         Login loginUser = new Login(email, password);
         if (loginUser.checkPassword()) {
           mv.setViewName("Home");
           return mv;
         } else {
-          mv.setViewName("/");
-          mv.addObject("loginError", "The entered email or password is invalid.");
+          redirectAttributes.addFlashAttribute("loginError", "The entered email or password is invalid.");
+          mv.setViewName("redirect:/");
           return mv;
         }
     }

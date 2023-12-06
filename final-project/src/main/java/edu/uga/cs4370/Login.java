@@ -20,7 +20,7 @@ public class Login {
 
   public User findUser() {
     User user = null;
-        String sql = "SELECT email, password FROM users WHERE email = ?";
+        String sql = "SELECT email, password FROM User WHERE email = ?";
 
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement statement = conn.prepareStatement(sql)) {
