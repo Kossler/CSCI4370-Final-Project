@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Top 5 Player Yards</title>
+</head>
+<body>
+  <div class="top-5-container">
+    <h2>Passing Yards</h2>
+    <ul>
+        {{#passingYards}}
+        <li>{{.}}</li>
+        {{/passingYards}}
+    </ul>
+    <h2>Receiving Yards</h2>
+    <ul>
+        {{#receivingYards}}
+        <li>{{.}}</li>
+        {{/receivingYards}}
+    </ul>
+    <h2>Rushing Yards</h2>
+    <ul>
+        {{#rushingYards}}
+        <li>{{.}}</li>
+        {{/rushingYards}}
+    </ul>
+  </div>
+</body>
+</html>

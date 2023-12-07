@@ -18,6 +18,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 public class WebController {
 
+  User user;
+
   @GetMapping("/")
   public ModelAndView root() {
       ModelAndView mv = new ModelAndView("Login");
@@ -33,7 +35,8 @@ public class WebController {
         ModelAndView mv = new ModelAndView();
         Login loginUser = new Login(email, password);
         if (loginUser.checkPassword()) {
-          mv.setViewName("Home");
+          user = loginUser.findUser();
+          mv.setViewName("redirect:/home");
           return mv;
         } else {
           redirectAttributes.addFlashAttribute("loginError", "The entered email or password is invalid.");
@@ -64,7 +67,9 @@ public class WebController {
 
   @GetMapping("/home")
   public ModelAndView home() {
-    ModelAndView mv = new ModelAndView("Home ");
+    ModelAndView mv = new ModelAndView("Home");
+    mv.addObject("firstName", user.getFirstName());
+    mv.addObject("lastName", user.getLastName());
     return mv;
   }
 

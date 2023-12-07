@@ -20,7 +20,7 @@ public class Login {
 
   public User findUser() {
     User user = null;
-        String sql = "SELECT email, password FROM User WHERE email = ?";
+        String sql = "SELECT email, password, firstName, lastName FROM User WHERE email = ?";
 
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement statement = conn.prepareStatement(sql)) {
@@ -30,7 +30,9 @@ public class Login {
 
             if (rs.next()) {
                 String hashedPassword = rs.getString("password");
-                user = new User(email, hashedPassword);
+                String firstName = rs.getString("firstName");
+                String lastName = rs.getString("lastName");
+                user = new User(email, hashedPassword, firstName, lastName);
             }
         } catch (SQLException e) {
             e.printStackTrace();
