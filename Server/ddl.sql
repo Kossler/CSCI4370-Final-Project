@@ -3,13 +3,13 @@ USE finalprojectdb;
 
 DROP TABLE IF EXISTS Players, Quarterbacks, Running_Backs, Fullbacks, Wide_Receivers, Tight_Ends, Kickers, Offensive_Line, Defensive_Line, Linebackers, Defensive_Backs, Punters, Player_Game_Statistics, Team_Game_Statistics, Games, Teams, Conferences, Stadiums;
 
--- CREATE TABLE User(
---   userID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
---   firstName VARCHAR(20) NOT NULL,
---   lastName VARCHAR(20) NOT NULL,
---   email VARCHAR(50) NOT NULL,
---   password varchar(255) NOT NULL
--- );
+CREATE TABLE User(
+  userID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  firstName VARCHAR(20) NOT NULL,
+  lastName VARCHAR(20) NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  password varchar(255) NOT NULL
+);
 
 CREATE TABLE Conferences(
   conference_id INT PRIMARY KEY NOT NULL,
