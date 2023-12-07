@@ -1,0 +1,337 @@
+Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Home Town	Home State	Home Country	Last School
+1054143	5	McLellan	Joel	97	JR	79.0	220.0	Montmorency		AU	Deakin University
+1038375	5	Paul	Zach	38	SO	75.0	221.0	Broadview Heights	OH	US	Padua HS
+1030855	8	Mandell	Cody	29	SR	76.0	213.0	Lafayette	LA	US	Acadiana
+1038465	9	Mullins	Hunter	36	JR	75.0	195.0	Tallassee	AL	US	Tallassee HS
+1054224	28	Haack	Matt	26	FR	73.0	185.0	West Des Moines	IA	US	Dowling
+1054245	28	Vizzare	Dom	99	JR	76.0	234.0	Tacoma	WA	US	
+1038531	29	Riggleman	Drew	39	SO	74.0	207.0	Tucson	AZ	US	Sahuaro HS
+1059712	30	Jones	Paul	4B							
+1054340	31	Baker	Toby	37	FR	75.0	197.0	Memphis	TN	US	Memphis University School
+1054363	31	Irwin-Hill	Sam	92	JR	75.0	215.0	Bendingo		AU	City College of San Francisco
+1031070	37	Clark	Steven	30	SR	77.0	230.0	Kansas City	MO	US	Park Hill
+1054371	37	Hutchinson	Jimmy	28	FR	74.0	190.0	Marietta	GA	US	Harrison
+1054373	37	Stovall	Tyler	29	FR	73.0	205.0	Hokes Bluff	AL	US	Hokes Bluff
+1046408	47	Schmidt	Kyle	12	FR	74.0	228.0	Chesterton	IN	US	Chesterton
+1038725	51	Roth	Spencer	36	JR	76.0	225.0	Knoxville	TN	US	Catholic HS
+1023255	66	Harman	Trevor	14	SR	75.0	211.0	Beaverton	OR	US	Southridge HS
+1046479	66	Wale	Sean	26	FR	73.0	185.0	La Habra	CA	US	La Habra HS
+1038780	67	Howell	Alex	42	SO	77.0	215.0	Florence	SC	US	West Florence
+1054528	71	Davidson	Joe	49	FR	79.0	206.0	Findlay	OH	US	Findlay
+1038834	71	Schmiedebusch	Brian	95	SR	75.0	226.0	Ottawa	OH	US	Ottawa-Glandorf
+1046585	77	Arellano	Scott	26	JR	73.0	190.0	Santa Ynez	CA	US	Foothill College
+1054553	77	Miller	Jordan	28	SO	76.0	184.0	Henderson	NV	US	Green Valley High School
+1046599	86	Grassman	Tyler	11	SO	73.0	195.0	Columbus	OH	US	Gahanna Lincoln
+1046627	86	Orzechowski	Brian	87	JR	76.0	216.0	Lockport	NY	US	Lockport
+1046661	107	Leininger	Cole	16	FR	73.0	200.0	Fruit Cove	FL	US	Bartram Trail HS
+1046677	107	Mos	Steffan	40	JR	72.0	190.0	San Diego	CA	US	Grossmont College/Clairemont HS
+1046660	107	Smith	Chad	14	JR	77.0	215.0	Los Angeles	CA	US	Loyola HS
+1059662	110	Covington	Sean	19	FR	73.0	211.0	Treasure Island	FL	US	St. Petersburg
+1059674	110	Searl	Adam	39	FR	73.0	180.0	Irvine	CA	US	Irvine
+1046746	128	Houston	Caleb	36	FR	74.0	206.0	Cleveland	TN	US	Walker Valley
+1054775	129	Cotiguala	Matt	99	SO	70.0	180.0	LaGrange	IL	US	College of DuPage
+1023574	129	Hogan	Richie	13	SR	74.0	207.0	Laguna Hills	CA	US	Laguna Hills HS
+1054794	140	Geraci	Sam	58	FR	74.0	212.0	Cincinnati	OH	US	Moeller
+1031516	140	Lloyd	John	24	JR	74.0	237.0	Cincinnati	OH	US	CHCA
+1052875	147	Jenkins	Corbin	32	JR	70.0	175.0	Conway	SC	US	Conway HS
+1046845	147	Pinion	Bradley	92	SO	77.0	230.0	Concord	NC	US	Northwest Cabarrus HS
+1054840	147	Teasdall	Andy	95	FR	71.0	185.0	Winston-Salem	NC	US	R.J. Reynolds HS
+1046860	156	Hunt	Hayden	49	FR	73.0	196.0	Long Beach	CA	US	Long Beach Poly
+1039196	157	O'Neill	Darragh	8	JR	74.0	185.0	Louisville	CO	US	Boulder Fairview
+1054948	164	Feagles	Blake	98	FR	72.0	193.0	Ridgewood	NJ	US	Ridgewood
+1023707	164	Wagner	Cole	86	SR	75.0	211.0	York	PA	US	York Suburban
+1046937	164	Wain	Justin	42	FR	75.0	195.0	Wilmington	NC	US	Eugene Ashley
+1039233	193	Monday	Will	41	SO	76.0	210.0	Flowery Branch	GA	US	Flowery Branch
+1031677	193	Rogers	Spencer	11	SR	73.0	190.0	Los Altos	CA	US	St. Francis
+1047000	196	Rowland	Brendan	40	SR	74.0	164.0	Mission Viejo	CA	US	Saddleback CC
+1055022	204	Barnes	Austin	17	FR	71.0	205.0	Fairview Heights	IL	US	O'Fallon
+1031777	204	Dubiel	Owen	67	JR	72.0	205.0	East Jackson	MI	US	East Jackson
+1047088	229	Schomp	Dalton	67	SO	72.0	190.0	Seminole	FL	US	Seminole
+1047136	231	Ayers	Chris	16	FR	72.0	175.0	Hollywood	FL	US	South Broward
+1047153	234	Beatty	Cason	38	SO	75.0	229.0	Charlotte	NC	US	Olympic
+1055128	234	Hernandez	Jonathan	33	FR	76.0	208.0	Bradenton	FL	US	Manatee
+1039455	235	Christy	Kyle	4	JR	75.0	198.0	Brownsburg	IN	US	Brownsburg
+1055178	235	Few	William	48	FR	68.0	164.0	Tampa	FL	US	Plant
+1055195	235	Gilboy	Connor	92	FR	68.0	180.0	Land O'Lakes	FL	US	Sunlake
+1055196	235	Stubbs	Dallas	93	SO	69.0	151.0	Gainesville	FL	US	Gainesville/Santa Fe CC
+1055162	235	Townsend	Johnny	19	FR	73.0	191.0	Orlando	FL	US	Boone
+1047190	235	Vogel	Justin	4	FR	76.0	211.0	Tampa	FL	US	Berkeley Prep
+1045419	254	Hubbard	Matt	49	JR	76.0	235.0	Peachtree City	GA	US	Starr's Mill
+1023962	255	Poole	Sean	82	SR	73.0	160.0	Tallahassee	FL	US	Chiles
+1047238	255	Rodwell	Ryan	85	SO	74.0	198.0	Deland	FL	US	Deland
+1055255	255	Somers	Will		FR	73.0	185.0	Johns Creek	GA	US	Johns Creek
+1047251	257	Barber	Collin	32	SO	74.0	200.0	Cartersville	GA	US	Cartersville HS
+1031995	257	Erickson	Adam	97	JR	70.0	171.0	Athens	GA	US	Clarke Central
+1039545	257	Jackson	Ethan	90	SR	71.0	177.0	Sandersville	GA	US	Washington County
+1055314	277	Guzman	Ruben	44	JR	68.0	190.0	Fontana	CA	US	Riverside City College
+1032038	288	Leone	Richie	15	SR	75.0	215.0	Roswell	GA	US	Roswell HS
+1039594	288	Martin	Sam	40	SO	73.0	185.0	Texas City	TX	US	Texas City
+1041027	288	Seibert	Dylan	38	SO	75.0	220.0	Tulsa	OK	US	Oklahoma
+1039657	301	DuVernois	Justin	18	JR	73.0	190.0	Plantation	FL	US	St. Thomas Aquinas
+1032117	301	Janitz	Brad	36	SR	77.0	215.0	Cincinnati	OH	US	Walnut Hills
+1047461	306	Campos	Nick	93	FR	72.0	192.0	Wheaton	IL	US	Wheaton-Warrenville South
+1047433	306	Toth	Erich	36	SO	75.0	206.0	Indianapolis	IN	US	Brebeuf Jesuit
+1055491	311	Kramer	Holden	12	FR	74.0	169.0	West Des Moines	IA	US	Valley
+1032177	311	Van Der Kamp	Kirby	13	SR	76.0	211.0	West Des Moines	IA	US	Valley
+1047537	312	Kornbrath	Connor	98	SO	78.0	240.0	Bridgeport	WV	US	Bridgeport HS
+1047559	327	Hammes	Ethan	48	SR	69.0	197.0	Seneca	KS	US	Butler CC
+1039823	327	Krause	Mark	38	SR	71.0	218.0	Kearney	MO	US	Missouri Southern
+1055616	327	Lochbihler	Mitch	9	FR	78.0	240.0	Charlotte	NC	US	Charlotte Catholic
+1055570	327	Walsh	Nick	14	FR	70.0	198.0	Lyndon	KS	US	Lyndon
+1032294	328	Doherty	Ron	13	SR	71.0	205.0	Klein	TX	US	Klein HS
+1055626	328	Pardula	Trevor	16	JR	77.0	212.0	San Jose	CA	US	Leigh HS
+1039924	331	Horning	Andrew	92	JR	73.0	205.0	Stow	OH	US	Stow-Munroe Falls
+1047689	334	Foster	Landon	9	SO	73.0	208.0	Franklin	TN	US	Independence
+1047714	365	Keehn	Jamie	38	SO	76.0	218.0	Miners Rest		AU	The Rock Hampton GS
+1055788	366	McPherson	Logan	43	FR	70.0	174.0	Fort Payne	AL	US	Fort Payne HS
+1055779	366	Shouse	Gerald	28	SO	73.0	165.0	Shreveport	LA	US	Evangel Christian Academy
+1040045	367	Johnson	Ryan	8	JR	71.0	199.0	Louisville	KY	US	DeSales
+1040048	367	Wallace	John	45	SO	72.0	196.0	Cecilia	KY	US	Central Hardin
+1047814	388	Williams	Tyler	38	SO	72.0	195.0	Fort Wayne	IN	US	R. Nelson Snider
+1047839	392	Craddock	Brad	15	SO	72.0	180.0	Adelaide		AU	Tabor Christian College
+1040108	392	Renfro	Nathan	18	SO	73.0	205.0	Brentwood	TN	US	Brentwood Academy
+1040113	392	Tart	Michael	29	JR	74.0	195.0	Charlotte	NC	US	Mallard Creek HS
+1055945	400	Laurent	Logan	99	FR	75.0	210.0	Exeter	NH	US	Exeter HS
+1027894	400	Strait	Jeff	41	SR	72.0	200.0	Manheim	PA	US	Manheim Central H.S.
+1032585	404	Hornsey	Tom	43	SR	75.0	210.0	Geelong		AU	St. Joseph's College
+1055962	404	Michael	Evan	35	FR	73.0	215.0	Germantown	TN	US	Chrsitian Brothers HS
+1056049	415	Barnard	Austin	84	FR	76.0	190.0	Fayetteville	GA	US	Whitewater HS
+1047998	415	Carroll	Ricky	27	JR	75.0	198.0	Mission Viejo	CA	US	Orange Coast College
+1056034	415	Coffman	Grant	40	FR	68.0	170.0	Dublin	OH	US	Dublin Coffman HS
+1048024	415	Costa	Zach	8C	SO						
+1023584	415	O'Donnell	Pat	16	SR	77.0	220.0	Lake Worth	FL	US	Cincinnati/Palm Beach Central HS
+1032677	416	Sadler	Mike	3	JR	72.0	192.0	Grand Rapids	MI	US	Forest Hills Northern
+1032717	418	Hagerup	Will	43	SR	76.0	227.0	Milwaukee	WI	US	Whitefish Bay
+1032741	419	Davis	Josh	48	SR	70.0	217.0	Dayton	TN	US	Rhea County
+1040340	419	Kee	Michael	29	SO	71.0	170.0	Naples	FL	US	Naples
+1032769	419	Lopez	Zachary	13	JR	71.0	192.0	Fayetteville	GA	US	Sandy Creek
+1048173	428	Eldred	Christian	94	JR	75.0	185.0	Melbourne		AU	Monash University
+1040367	428	Mortell	Peter	37	SO	74.0	195.0	Green Bay	WI	US	Notre Dame Academy
+1024875	428	Orseske	Dan	41	SR	75.0	205.0	Chicago	IL	US	Brother Rice HS
+1048184	430	Mordecai	Mike	65	FR	75.0	195.0	Madison	MS	US	Jackson Academy
+1024914	430	Swedenburg	Baker	41	SR	72.0	205.0	Columbus	MS	US	Heritage Academy
+1024984	433	Campbell	Tyler	97	SR	74.0	230.0	Little Rock	AR	US	Catholic
+1024982	433	Conley	Chris	94	SR	68.0	202.0	Bradenton	FL	US	Manatee
+1056258	433	Gleeson	Will	83	FR	75.0	200.0	Melbourne		AU	Viewbank College
+1032931	434	Brinser	Christian	92	JR	74.0	200.0	Liberty	MO	US	Liberty
+1040488	457	Hibbard	Tommy	30	JR	70.0	190.0	Charlotte	NC	US	Butler
+1048299	457	Mangili	Joey	23	SO	75.0	205.0	Durham	NC	US	Jordan
+1048298	457	Weiler	Nick	19	SO	72.0	195.0	Fairfax Station	VA	US	Lake Braddock
+1056357	463	Bellar	Jordan	98	FR	72.0	165.0	Norfolk	NE	US	Norfolk Catholic
+1040623	465	Yunker	Logan	45	SO	74.0	200.0	Las Vegas	NV	US	UNR
+1056422	466	Boy	Alex	69	SO	75.0	195.0	Long Beach	CA	US	Long Beach City College
+1040607	466	Tenpenny	Chase	37	SR	76.0	250.0	Oskaloosa	KS	US	Fort Scott CC
+1033097	472	Capraro	Jake	42	SR	73.0	215.0	Claremont	CA	US	Damien HS
+1048451	472	Chapman-Brown	Cayle	7	SR	77.0	231.0	Sydney		AU	Snow College/Marist Kogarah
+1056453	472	Satriana	Gino	36	SO	70.0	180.0	Rio Rancho	NM	US	Rio Rancho HS
+1025219	473	Skaer	Ben	35	SR	72.0	197.0	Waterloo	IL	US	Waterloo HS
+1040717	490	Baumann	Wil	36	JR	78.0	190.0	Wilmington	NC	US	Hoggard
+1048520	490	Stephenson	William	47	FR	75.0	184.0	Raleigh	NC	US	Wakefield
+1056578	497	Keena	Eric	68	SO	74.0	155.0	Keller	TX	US	Sunrise Mountain HS
+1048551	497	Macek	Blake	40	FR	69.0	186.0	Sulphur Springs	TX	US	Sulphur Springs HS
+1040827	503	Wedel	Tyler	26	JR	71.0	186.0	McFarland	WI	US	McFarland
+1040865	509	Gradone	Chris	31	SO	74.0	190.0	Cincinnati	OH	US	St. Xavier
+1048647	509	Kucera	Zak	39	FR	74.0	205.0	Chesterland	OH	US	West Geauga
+1048644	509	Micucci	Matt	33	FR	71.0	190.0	Lake Zurich	IL	US	Stevenson
+1025411	509	Williams	Brandon	49	SR	74.0	185.0	Nappanee	IN	US	NorthWood
+1056695	513	Antognoli	Andrew	84	FR	74.0	190.0	Fresno	CA	US	San Joaquin Memorial
+1026941	513	Wulfeck	Alex	98	SR	67.0	154.0	Jacksonville	FL	US	Bolles School
+1056742	518	Johnston	Cameron	95	FR	71.0	190.0	Geelong		AU	St. Joseph's
+1056707	518	Russell	Jake	14	SO	73.0	195.0	Twinsburg	OH	US	Twinsburg
+1048753	519	Venham	Grant	48	SO	75.0	210.0	Belpre	OH	US	Vincent Warren
+1033429	521	Reichenstein	Michael	59	SR	76.0	212.0	Dallas	TX	US	Jesuit College Prep
+1031424	521	Smith	Kip	35	JR	73.0	209.0	Broomfield	CO	US	Legacy/UCLA
+1031405	522	Barnett	Jed	44	JR	74.0	227.0	Camas	WA	US	Laney College
+1056843	522	Braught	Jack	46	FR	75.0	170.0	Duncan	OK	US	Duncan HS
+1048818	522	Steed	Jack	38	FR	77.0	210.0	Katy	TX	US	Cinco Ranch HS
+1033505	528	Kostol	Keith	48	JR	76.0	199.0	Tigard	OR	US	Tigard HS
+1041054	528	McMullen	Tim	99	SR	76.0	227.0	Parkdale		AU	Humboldt State/Mentone Grammar School
+1056875	528	Seeley	Mitch	30	FR	70.0	188.0	Portland	OR	US	Central Catholic HS
+1056912	529	Wheeler	Ian	38	FR	72.0	192.0	Demorest	GA	US	Habersham Central HS
+1033570	539	Butterworth	Alex	45	SR	70.0	206.0	Indianapolis	IN	US	Heritage Christian
+1057010	545	Winslow	Ryan	90	FR	77.0	205.0	Maple Glen	PA	US	La Salle College HS
+1033619	545	Yoklic	Matt	92	SR	76.0	220.0	Gibsonia	PA	US	Pine-Richland
+1033634	559	Webster	Cody	42	SR	73.0	205.0	Harrisburg	PA	US	Central Dauphin East
+1057103	587	Murray	Aiden	96	SO	68.0	170.0	 Mahwah	NJ	US	Don Bosco Prep
+1057104	587	Roth	Joseph	96	JR	72.0	175.0	 Basking Ridge	NJ	US	Ridge
+1041287	626	Alesi	Joel	77	JR		235.0	El Cajon	CA	US	Christian High
+1057120	626	McGrory	John	43	FR	74.0	180.0	Rancho Santa Margarita	CA	US	Rancho Santa Margarita High
+1025894	630	Waid	Harrison	10	SR	73.0	183.0	Sunnyvale	CA	US	Fremont HS
+1045151	646	Garber	Scott	40	SR	69.0	195.0	Port St. Lucie	FL	US	St. Lucie West Centennial HS
+1057182	646	McKee	Brandon	39	FR	73.0	175.0	Cumming	GA	US	South Forsyth HS
+1033779	648	Fish	Patrick	18	JR	72.0	195.0	Shelby	NC	US	Burns
+1057208	648	Fry	Elliott	29	FR	72.0	150.0	Frisco	TX	US	Prince of Peace Christian
+1057214	648	Huggins	Max	39	FR	73.0	185.0	Myrtle Beach	SC	US	Myrtle Beach
+1049165	648	Hull	Tyler	13	JR	74.0	206.0	Mount Airy	NC	US	Mount Airy/Guilford College
+1057215	648	Komornik	Andrew	40	FR	77.0	225.0	Fort Mill	SC	US	Nations Ford
+1025351	651	Munoz	Aaron	46	SR	72.0	188.0	Pace	FL	US	UL-Monroe/Pace HS
+1041413	657	Albarado	Kris	35	SO	70.0	200.0	Lake Charles	LA	US	St. Louis HS
+1057279	657	Basalari	Jack	48	FR	72.0	170.0	Pasadena 	CA	US	Marantha
+1057274	657	Krassenstein	Joey	35	SO	75.0	210.0	Shanghai		CN	Shanghai American School Puxi Campus
+1033908	663	Loftus	Mike	99	JR	73.0	200.0	Anaheim	CA	US	Servite
+1045669	664	Moseley	Matthew	33	SO	70.0	164.0	Franklin	TN	US	Tennessee State
+1025544	670	Robinson	Zach	49	SR	75.0	179.0	Flower Mound	TX	US	Flower Mound HS
+1057403	671	Cadona	Daniel	48	JR	76.0	218.0	Darwin		AU	
+1033984	674	Rhyne	Ben	14	SR	74.0	203.0	Charlotte	NC	US	Charlotte Country Day
+1057439	674	Robinson	Alex	47	FR	72.0	200.0	College Park	GA	US	Woodward
+1049408	674	Ukropina	Conrad	34	SO	73.0	185.0	Pasadena	CA	US	Loyola
+1041602	688	Fisher	Jonathan	46	JR	73.0	209.0	Oakfield	NY	US	Oakfield-Alabama Central
+1057482	690	Layton	Paul	15	SR	73.0	215.0	Burnt Hills	NY	US	Ballston Lake
+1041653	690	Mayes	Tyler	95	SO	74.0	215.0	Downingtown	PA	US	Downingtown East
+1057527	694	Ault	Ryan	36	FR	71.0	196.0	Brentwood	TN	US	Brentwood
+1057521	694	Daniel	Trevor	25	FR	74.0	221.0	Dickson	TN	US	Dickson County
+1034110	694	Darr	Matt	43	JR	73.0	220.0	Bakersfield	CA	US	Frontier
+1041713	697	Kaser	Drew	38	SO	75.0	205.0	Strongsville	OH	US	Walsh Jesuit
+1057569	697	Tripucka	Shane	46	FR	75.0	210.0	Allen	TX	US	Allen
+1049575	698	Perry	Ethan	37	SO	76.0	230.0	Spring Branch	TX	US	Smithson Valley High School
+1026383	700	Erxleben	Ryan	26	SR	73.0	190.0	Lake Travis	TX	US	Lake Travis
+1034266	703	Russ	William	19	JR	76.0	188.0	Shreveport	LA	US	Evangel Christian
+1049739	706	Stern	Kristian	38	JR	71.0	185.0	San Antonio	TX	US	Alamo Heights HS
+1034355	709	Penza	Vince	35	SR	73.0	201.0	Canfield	OH	US	Cardinal Mooney
+1049885	718	Broccoli	Steven	62	SO	67.0	155.0	New York	NY	US	Fordham Prep
+1034431	718	Ginsburgh	Jonathan	69	SR	71.0	204.0	Alexandria	LA	US	Holy Savior Menard Central
+1049897	718	Hilton	Logan	95	SO	72.0	195.0	Alexandria	LA	US	Holy Savior Menard Central
+1049882	718	Picerelli	Peter	31	SO	73.0	190.0	Warren	RI	US	LaSalle Academy
+1057876	718	Righeimer	Austin	67	FR	71.0	179.0	Park Ridge	IL	US	Maine South
+1057896	719	Parks	Dalton	26	FR	75.0	190.0	Kansas City	MO	US	Staley HS
+1042002	719	Way	Cole	28	JR	80.0	205.0	Tulsa	OK	US	Union
+1057957	725	Freibert	Ralph	38	FR	71.0	185.0	New Orleans	LA	US	Jesuit (USMAPS)
+1049968	725	Tardieu	Alex	80	SO	76.0	190.0	Grants Pass	OR	US	Grants Pass (USMAPS)
+1058009	726	Barta	Alex	39	FR	75.0	210.0	Clarkston	MI	US	Clarkston
+1042144	726	Beltran	Pablo	11	JR	74.0	225.0	Humble	TX	US	Atascocita
+1050068	726	Jernigan	Gavin	16	SO	75.0	217.0	Lawndale	CA	US	Mira Costa
+1034653	731	Bentrude	Jaron	38	JR	73.0	209.0	Draper	UT	US	Juan Diego
+1050121	732	Hackett	Tom	33	SO	72.0	187.0	Melbourne		AU	Scotch College
+1058092	732	Van Orden	Chris	48	JR	73.0	215.0	Salt Lake City	UT	US	Snow College
+1050147	736	Cooke	Colby	16	FR	75.0	208.0	Goochland	VA	US	Goochland
+1042242	736	Hudson	Taylor	29	SO	75.0	225.0	Powell	OH	US	Olentangy Liberty
+1042285	742	Branthover	Michael	38	JR	69.0	184.0	Dayton	MD	US	DeMatha
+1050179	742	Hughes	A.J.	27	SO	73.0	199.0	Terre Haute	IN	US	Terre Haute North Vigo
+1034762	742	Keyserling	Ethan		JR	74.0	199.0	Chapel Hill	NC	US	East Chapel Hill
+1058149	742	Ludwig	Mitchell	30	FR	71.0	192.0	Abingdon	VA	US	Abingdon
+1050186	742	Windmuller	Hunter	46	FR	75.0	170.0	Oakton	VA	US	Flint Hill School
+1050250	746	Coleman	James	32	FR	74.0	200.0	Martinsville	VA	US	The Carlisle School
+1050229	746	Conte	Nicholas	38	FR	75.0	200.0	Roanoke	VA	US	Patrick Henry HS
+1034803	746	Vozenilek	Alec	30	JR	70.0	190.0	Richmond	VA	US	St. Christopher's School
+1042357	749	Kinal	Alexander	38	SO	76.0	210.0	Adelaide		AU	St. Peter's
+1058204	749	Weaver	Mike	18	FR	73.0	180.0	Pine City	NY	US	Southside
+1058250	754	Fossedal	Thomas	39	JR	74.0	200.0	Mukilteo	WA	US	Kamiak
+1058253	754	Powell	Erik	40	FR	73.0	173.0	Vancouver	WA	US	Seton Catholic
+1050324	756	Durkee	Korey	45	SO	76.0	221.0	Gig Harbor	WA	US	Gig Harbor
+1023654	756	Grossnickle	Zach	40	SR	74.0	195.0	Denver	CO	US	Univ. of Colorado/East
+1058354	768	O'Toole	Nick	91	SO	77.0	220.0	Corona	CA	US	Fullerton College
+1058333	768	Syvertson	Houston	40	FR	74.0	220.0	Shady Spring	WV	US	Shady Spring
+1034995	772	Brakefield	Hendrix	99	SR	76.0	235.0	Nashville	TN	US	Hillsboro Comprehensive
+1050425	774	Schroeder	J.	37	SO	72.0	205.0	Columbus	OH	US	St. Charles Prep
+1042598	796	Meyer	Drew	90	SO	75.0	185.0	Hartland	WI	US	
+1050479	796	Nethery	Brett	91	FR	72.0	200.0	Greendale	WI	US	
+1058484	811	Wood	Ethan	41	FR	75.0	165.0	Colorado Springs	CO	US	Liberty
+1061345	2	Hynds	Ben	81	JR						
+1061349	2	Kilcullen	Austin	85	FR						
+1022970	7	Wenzig	Bobby	6	SR						
+1053515	17	Jean	Marcquiso	49	SO						
+1061527	27	Burton	Manning	95	FR						
+1061525	27	Critcher	Bentlee	91	FR						
+1042664	27	Matics	Zach	59	SO						
+1038239	27	Powell	Mark	86	JR						
+1042692	43	Campbell	Ben	80	JR						
+1042757	90	Hundley	Paul	35	SO						
+1042799	102	Heath	Smith	57	JR						
+1050541	102	Weldon	Justin	45	SR						
+1059814	108	Wadman	Colby	93	FR						
+1053588	141	Jordan	Austin	86	SO						
+1061589	141	Vanvick	Will	90	FR						
+1053651	149	Baker	Storm	87	FR						
+1035212	149	Cain	Austin	35	JR						
+1053646	149	Denuel	Stephen	86	JR						
+1053648	149	Granger	Ryan	89	FR						
+1061625	149	Hinson	Ben	38	FR						
+1061654	149	Ishibashi	Masamitsu	95	FR						
+1058640	153	Armiento	Nikko	85	SO						
+1060772	180	Enderson	Eric	49	FR						
+1058658	201	Edwards	Cody	69	FR						
+1030319	201	Weatherford	Scott	83	SR						
+1027542	202	Berry	Jordan	37	SR						
+1039942	202	Willmott	Jay	32	SO						
+1043003	207	Miller	Jake	48	JR						
+1060809	236	Pavlik	Joseph	19	FR						
+1053107	244	McMillan	Andy	48	FR						
+1037046	253	Cherry	Luke	45	JR						
+1061699	253	O'Neal	Wayne		FR						
+1052381	290	Fleck	John	37	SO						
+1043156	290	Jackson	Bryan	48	SR						
+1058737	299	Laros	CJ	36	JR						
+1058762	299	Smith	Spencer	94	FR						
+1052507	299	Wright	Patrick	98	SR						
+1058768	305	Stangler	Jordon	14	JR						
+1051275	315	MacInnes	Hamish	19	SO						
+1051313	315	Zavaglia	Dominic	97	FR						
+1059909	317	Luna	Juan	91	FR						
+1059916	317	Stiebel	John		FR						
+1051335	346	Kahler	Kollin	25	SR						
+1051421	355	Bowden	Grant	39	SR						
+1058843	355	Turner	Trey	35	FR						
+1059968	380	De Martini	James	53	FR						
+1059961	380	Lenson	Sam	38	FR						
+1037333	440	Perez	Rory	18	SR						
+1052544	446	Forbes	Lawrence	38	FR						
+1058962	454	Bogard	Zach	60	FR						
+1035567	454	Mix	Steven	83	SR						
+1052606	469	Ghiloni	Joe	15	FR						
+1037438	469	Prasky	Brad	10	JR						
+1033213	483	Fryoux	Conner	93	JR						
+1043590	489	Cornelius	Matthew	33	SR						
+1045475	493	LeCompte	Ben	19	SO						
+1028240	502	Ellingsen	Tanner	60	SR						
+1050689	502	Holzmer	Jesse	61	FR						
+1043708	504	Bieghler	Logan	53	SO						
+1059132	504	Kuhter	Sam	99	FR						
+1060875	508	Tassin	Chase	46	FR						
+1059155	523	Pulisic	Joseph	29	FR						
+1059160	523	Walsh	Jake	33	FR						
+1060092	550	Kinsella	Marcus	16	FR						
+1060098	550	Loomis	Kyle	29	JR						
+1060191	553	Jatzlau	Travis	82	JR						
+1060213	575	Sahd	Adam	31	FR						
+1049827	624	Dunavant	Brad	34	JR						
+1060248	624	Edwards	Lachlan	49	SO						
+1046100	625	O'Neal	Michael	54	JR						
+1035963	625	Peranich	Greg	95	JR						
+1061194	649	Finocchiaro	Michael	97	FR						
+1037970	649	Sawyer	Ethan	9	JR						
+1061206	649	Tjosvold	Joe								
+1036115	654	Vucic	Joe	33	SR						
+1060418	655	Hay	Brody	36	FR						
+1036156	655	McCormick	Matt	15	SR						
+1059280	659	Bultinck	Colin	70	SO						
+1059291	659	Neidig	Nick	94	FR						
+1037532	659	Pucylowski	Austin	90	SR						
+1059313	665	Soden	Paul Randall	58	FR						
+1029405	667	Miller	Brock	13	SR						
+1051848	669	Sullens	Chris	41	SO						
+1053411	692	Harris	Chris	88	SO						
+1060534	692	King	Jonathan	82	FR						
+1053413	692	Zinchini	Chad	92	SR						
+1036375	695	Satterfield	James	39	JR						
+1050796	711	Evangelista	Drew	90	SR						
+1059373	711	Shelly	Grayson		FR						
+1028686	739	Hamilton	Mark	93	SR						
+1059399	739	Hinchen	John	94	FR						
+1053759	741	Beasley	Scott	98	FR						
+1030636	741	Eberhardt	David	36	SR						
+1061216	741	Hague	Tucker	43	FR						
+1060947	748	Cronin	Shane	45	FR						
+1050876	748	Firestone	A.J.	38	JR						
+1050951	748	Phillips	Spencer	55	FR						
+1028723	758	Epperson	Tony	12	SR						
+1052826	769	Metcalf	Blake	48	FR						
+1061020	771	Kindred	Connor	94	FR						
+1061017	771	Schmidt	RJ	91	FR						
+1028823	817	Liste	Nick	81	SR						
+1060653	1004	Adams	William		FR						
+1060654	1004	Burton	Tyler		SO						
+1060632	1004	Harrison	Jonathan	29	JR						
+1059482	1068	Petroni	David	39	FR						
+1060691	1092	Holder	Dustin	90	FR						
+1045380	1320	Doar	Stephen	41	SO						
+1054078	2915	Sanders	Brian	15	FR						
