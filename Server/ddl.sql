@@ -3,13 +3,13 @@ USE finalprojectdb;
 
 DROP TABLE IF EXISTS Players, Quarterbacks, Running_Backs, Fullbacks, Wide_Receivers, Tight_Ends, Kickers, Offensive_Line, Defensive_Line, Linebackers, Defensive_Backs, Punters, Player_Game_Statistics, Team_Game_Statistics, Games, Teams, Conferences, Stadiums;
 
-CREATE TABLE User(
-  userID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
-  firstName VARCHAR(20) NOT NULL,
-  lastName VARCHAR(20) NOT NULL,
-  email VARCHAR(50) NOT NULL,
-  password varchar(255) NOT NULL
-);
+-- CREATE TABLE User(
+--   userID INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+--   firstName VARCHAR(20) NOT NULL,
+--   lastName VARCHAR(20) NOT NULL,
+--   email VARCHAR(50) NOT NULL,
+--   password varchar(255) NOT NULL
+-- );
 
 CREATE TABLE Conferences(
   conference_id INT PRIMARY KEY NOT NULL,
@@ -39,7 +39,7 @@ CREATE TABLE Stadiums(
 );
 
 CREATE TABLE Games(
-  game_id INT PRIMARY KEY NOT NULL,
+  game_id BIGINT PRIMARY KEY NOT NULL,
   visiting_team_id INT NOT NULL,
   home_team_id INT NOT NULL,
   stadium_id INT NOT NULL,
@@ -63,20 +63,20 @@ CREATE TABLE Games(
 );
 
 CREATE TABLE Players(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE Quarterbacks(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT qb_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -86,18 +86,23 @@ CREATE TABLE Quarterbacks(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT qb_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Running_Backs(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT rb_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -107,18 +112,23 @@ CREATE TABLE Running_Backs(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT rb_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Fullbacks(
-player_id INT PRIMARY KEY NOT NULL,
+player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT fb_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -128,18 +138,23 @@ player_id INT PRIMARY KEY NOT NULL,
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT fb_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Wide_Receivers(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT wr_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -149,18 +164,23 @@ CREATE TABLE Wide_Receivers(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT wr_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Tight_Ends(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT te_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -170,18 +190,23 @@ CREATE TABLE Tight_Ends(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT te_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Kickers(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT k_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -191,18 +216,23 @@ CREATE TABLE Kickers(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT k_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Offensive_Line(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT ol_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -212,18 +242,23 @@ CREATE TABLE Offensive_Line(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT ol_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Defensive_Line(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT dl_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -233,18 +268,23 @@ CREATE TABLE Defensive_Line(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT dl_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Linebackers(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT lb_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -254,18 +294,23 @@ CREATE TABLE Linebackers(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT lb_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Defensive_Backs(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT db_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -275,18 +320,23 @@ CREATE TABLE Defensive_Backs(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT db_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Punters(
-  player_id INT PRIMARY KEY NOT NULL,
+  player_id BIGINT PRIMARY KEY NOT NULL,
   team_id INT NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   first_name VARCHAR(30) NOT NULL,
-  uniform_number INT NOT NULL,
-  class VARCHAR(2) NOT NULL,
-  height INT NOT NULL,
-  weight INT NOT NULL,
+  uniform_number INT,
+  class VARCHAR(2),
+  height INT,
+  weight INT,
   CONSTRAINT p_team_fk
     FOREIGN KEY(team_id)
     REFERENCES Teams(team_id)
@@ -296,13 +346,18 @@ CREATE TABLE Punters(
     FOREIGN KEY(player_id)
     REFERENCES Players(player_id)
     ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT p_id_fk
+    FOREIGN KEY(player_id)
+    REFERENCES Players(player_id)
+    ON DELETE CASCADE
     ON UPDATE CASCADE
 );
 
 CREATE TABLE Team_Game_Statistics(
-  teamgame_id INT PRIMARY KEY NOT NULL,
+  teamgame_id BIGINT PRIMARY KEY AUTO_INCREMENT NOT NULL,
   team_id INT NOT NULL,
-  game_id INT NOT NULL,
+  game_id BIGINT NOT NULL,
   rush_att INT NOT NULL,
   rush_yards INT NOT NULL,
   rush_td INT NOT NULL,
@@ -324,9 +379,9 @@ CREATE TABLE Team_Game_Statistics(
 );
 
 CREATE TABLE Player_Game_Statistics(
-  playergame_id INT PRIMARY KEY NOT NULL,
-  player_id INT NOT NULL,
-  game_id INT NOT NULL,
+  playergame_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  player_id BIGINT NOT NULL,
+  game_id BIGINT NOT NULL,
   rush_att INT NOT NULL,
   rush_yards INT NOT NULL,
   rush_td INT NOT NULL,
@@ -335,6 +390,9 @@ CREATE TABLE Player_Game_Statistics(
   pass_yards INT NOT NULL,
   pass_td INT NOT NULL,
   pass_int INT NOT NULL,
+  rec INT NOT NULL,
+  rec_yards INT NOT NULL,
+  rec_td INT NOT NULL,
   field_goal_att INT NOT NULL,
   field_goal_made INT NOT NULL,
   points INT NOT NULL,

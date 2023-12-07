@@ -180,7 +180,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1047227	255	Byerly	Tim	18	SO	72.0	212.0	Alpharetta	GA	US	Chatahoochee
 1055232	255	Griffin	Ty	17	FR	72.0	185.0	Atlanta	GA	US	McEachern
 1039471	255	Lee	Vad	2	SO	73.0	215.0	Durham	NC	US	Hillside HS
-1055238	255	Swilling	Brady	4A	FR	74.0	205.0	Chatsworth	GA	US	North Murray
+1055238	255	Swilling	Brady	4	FR	74.0	205.0	Chatsworth	GA	US	North Murray
 1047228	255	Thomas	Justin	5	FR	71.0	179.0	Prattville	AL	US	Prattville
 1047244	257	Bauta	Faton	10	FR	75.0	216.0	West Palm Beach	FL	US	Dwyer
 1031958	257	Bingham	Greg	7	SR	76.0	219.0	Columbus	GA	US	Columbus
@@ -670,7 +670,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1019436	796	Phillips	Curt	10	SR	75.0	217.0	Kingsport	TN	US	
 1058439	796	Senger	Connor	14	FR	70.0	175.0	Milwaukee	WI	US	
 1042573	796	Stave	Joel	2	SO	77.0	225.0	Greenfield	WI	US	
-1042600	811	Kirkegaard	Colby	11	SR	75.0	205.0	Phoenix	AZ	US	Phoenix CC, Ariz.
+0	0										
 1058468	811	Patterson	T.J.	14D	FR	75.0	178.0	Boulder	CO	US	Boulder
 1042604	811	Smith	Brett	16	JR	75.0	206.0	Salem	OR	US	West Salem
 1050484	811	Thompson	Jason	17	SO	74.0	206.0	Renton	WA	US	John F. Kennedy
@@ -689,10 +689,10 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1061434	7	Jackson	Sir	17	FR						
 1061432	7	Toppings	Quinteris	12	FR						
 1059723	17	Footman	Lenorris	17	FR						
-1059729	17	Gibbs, Jr.	John	3	SO						
+0	0										
 1059746	17	Hodge	Khadarel	6	FR						
 1059720	17	Menning	T.J.	13	FR						
-1059717	17	Rollins, Jr.	Zerick	10	JR						
+0	0										
 1042633	27	Bryant	Kameron	5	SO						
 1038231	27	Hallock	Logan	16	JR						
 1061491	27	Lamb	Taylor	17	FR						
@@ -703,7 +703,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1058532	43	Spivey	Andrew	9	JR						
 1044893	43	Taylor	Trey	16	SO						
 1061251	48	Copeland	Kyle	19	FR						
-1052928	48	Croghan, III	Daniel	10	FR						
+0	0										
 1042698	48	Dixon	Malcolm	15	SR						
 1061250	48	Saunders	Dalton	12	FR						
 1052929	48	Washington	Pryce		FR						
