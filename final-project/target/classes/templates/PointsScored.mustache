@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Points Scored Per Conference</title>
+</head>
+<body>
+  <div class="points-scored-container">
+    <h2>Points Scored Per Conference</h2>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>Conference</th>
+        <th>Points Scored</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#avgPoints}}
+    <tr>
+        <td>{{conference_name}}</td>
+        <td>{{avg_points_per_conference}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/avgPoints}}
+    </table>
+  </div>
+</body>
+</html>

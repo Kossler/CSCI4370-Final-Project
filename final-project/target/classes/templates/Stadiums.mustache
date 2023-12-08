@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Stadiums</title>
+</head>
+<body>
+  <div class="stadiums-container">
+    <h2>Stadiums</h2>
+    <a href="/add_stadium"><button><h3>Add Stadium</h3></button></a>
+    <a href="/remove_stadium"><button><h3>Remove Stadium</h3></button></a>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>Name</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Year Opened</th>
+        <th>Capacity</th>
+        <th>Surface</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#stadiums}}
+    <tr>
+        <td>{{stadium_name}}</td>
+        <td>{{city}}</td>
+        <td>{{state}}</td>
+        <td>{{year_opened}}</td>
+        <td>{{capacity}}</td>
+        <td>{{surface}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/stadiums}}
+    </table>
+  </div>
+</body>
+</html>

@@ -7,23 +7,67 @@
 <body>
   <div class="top-5-container">
     <h2>Passing Yards</h2>
-    <ul>
-        {{#passingYards}}
-        <li>{{.}}</li>
-        {{/passingYards}}
-    </ul>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>School</th>
+        <th>Yards</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#passingYards}}
+    <tr>
+        <td>{{first_name}}</td>
+        <td>{{last_name}}</td>
+        <td>{{school}}</td>
+        <td>{{total_passing_yards}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/passingYards}}
+    </table>
+    <hr/>
     <h2>Receiving Yards</h2>
-    <ul>
-        {{#receivingYards}}
-        <li>{{.}}</li>
-        {{/receivingYards}}
-    </ul>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>School</th>
+        <th>Yards</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#receivingYards}}
+    <tr>
+        <td>{{first_name}}</td>
+        <td>{{last_name}}</td>
+        <td>{{school}}</td>
+        <td>{{total_receiving_yards}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/receivingYards}}
+    </table>
+    <hr/>
     <h2>Rushing Yards</h2>
-    <ul>
-        {{#rushingYards}}
-        <li>{{.}}</li>
-        {{/rushingYards}}
-    </ul>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>School</th>
+        <th>Yards</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#rushingYards}}
+    <tr>
+        <td>{{first_name}}</td>
+        <td>{{last_name}}</td>
+        <td>{{school}}</td>
+        <td>{{total_rushing_yards}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/rushingYards}}
+    </table>
   </div>
 </body>
 </html>

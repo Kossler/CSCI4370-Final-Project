@@ -2,71 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Top 5 Player Yards</title>
+    <title>Top Players at Georgia</title>
 </head>
 <body>
-  <div class="top-5-container">
-    <h2>Passing Yards</h2>
+  <div class="top-uga-container">
+    <h1>Top Players at Georgia</h1>
+    <h2>Quarterback</h2>
     <table>
     <tr>
         <!-- Table headers -->
         <th>First Name</th>
         <th>Last Name</th>
-        <th>School</th>
         <th>Yards</th>
         <!-- more columns as needed -->
     </tr>
-    {{#passingYards}}
+    {{#qb}}
     <tr>
         <td>{{first_name}}</td>
         <td>{{last_name}}</td>
-        <td>{{school}}</td>
         <td>{{total_passing_yards}}</td>
         <!-- more columns as needed -->
     </tr>
-    {{/passingYards}}
+    {{/qb}}
     </table>
     <hr/>
-    <h2>Receiving Yards</h2>
+    <h2>Tight End</h2>
     <table>
     <tr>
         <!-- Table headers -->
         <th>First Name</th>
         <th>Last Name</th>
-        <th>School</th>
         <th>Yards</th>
         <!-- more columns as needed -->
     </tr>
-    {{#receivingYards}}
+    {{#te}}
     <tr>
         <td>{{first_name}}</td>
         <td>{{last_name}}</td>
-        <td>{{school}}</td>
         <td>{{total_receiving_yards}}</td>
         <!-- more columns as needed -->
     </tr>
-    {{/receivingYards}}
+    {{/te}}
     </table>
     <hr/>
-    <h2>Rushing Yards</h2>
+    <h2>Linebacker</h2>
     <table>
     <tr>
         <!-- Table headers -->
         <th>First Name</th>
         <th>Last Name</th>
-        <th>School</th>
-        <th>Yards</th>
+        <th>Tackles</th>
         <!-- more columns as needed -->
     </tr>
-    {{#rushingYards}}
+    {{#lb}}
     <tr>
         <td>{{first_name}}</td>
         <td>{{last_name}}</td>
-        <td>{{school}}</td>
-        <td>{{total_rushing_yards}}</td>
+        <td>{{total_solo_tackles}}</td>
         <!-- more columns as needed -->
     </tr>
-    {{/rushingYards}}
+    {{/lb}}
+    </table>
+    <hr/>
+    <h2>Punter</h2>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Yards</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#p}}
+    <tr>
+        <td>{{first_name}}</td>
+        <td>{{last_name}}</td>
+        <td>{{total_punt_yards}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/p}}
+    </table>
+    <hr/>
+    <h2>Kicker</h2>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#pk}}
+    <tr>
+        <td>{{first_name}}</td>
+        <td>{{last_name}}</td>
+        <td>{{total_points}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/pk}}
     </table>
   </div>
 </body>

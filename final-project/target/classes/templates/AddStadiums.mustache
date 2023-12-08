@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Add Stadiums</title>
+</head>
+<body>
+  <div class="stadiums-container">
+    <h2>Add a Stadium</h2>
+    <form action="/insert-stadium" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <br/>
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city" required><br>
+            <br/>
+             <label for="state">State (2-letter abbreviation):</label><br>
+            <input type="text" id="state" name="state" maxlength="2" pattern="[A-Za-z]{2}" title="Two-letter state code" required><br><br>
+            <br/>
+            <label for="yearOpened">Year Opened:</label><br>
+            <input type="number" id="yearOpened" name="yearOpened" required><br><br>
+            <br/>
+            <label for="capacity">Capacity:</label><br>
+            <input type="number" id="capacity" name="capacity" required><br><br>
+            <br/>
+            <label for="surface">Surface:</label><br>
+            <input type="text" id="surface" name="surface" required><br>
+            <input type="submit" value="Submit">
+        </form>
+  </div>
+</body>
+</html>

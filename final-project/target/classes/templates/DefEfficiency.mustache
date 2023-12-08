@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Top Defense Efficiency</title>
+</head>
+<body>
+  <div class="top-5-container">
+    <h2>Highest Sacks Per Game</h2>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>School</th>
+        <th>Sacks</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#avgSacks}}
+    <tr>
+        <td>{{team_name}}</td>
+        <td>{{avg_sacks_per_game}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/avgSacks}}
+    </table>
+    <hr/>
+    <h2>Highest Tackles Per Game</h2>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>School</th>
+        <th>Tackles</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#avgTackles}}
+    <tr>
+        <td>{{team_name}}</td>
+        <td>{{avg_solo_tackles_per_game}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/avgTackles}}
+    </table>
+    <hr/>
+    <h2>Highest Interceptions Per Game</h2>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>School</th>
+        <th>Interceptions</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#avgInts}}
+    <tr>
+        <td>{{team_name}}</td>
+        <td>{{avg_int_per_game}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/avgInts}}
+    </table>
+    <hr/>
+    <h2>Highest Forced Fumbles Per Game</h2>
+    <table>
+    <tr>
+        <!-- Table headers -->
+        <th>School</th>
+        <th>Forced Fumbles</th>
+        <!-- more columns as needed -->
+    </tr>
+    {{#avgForcedFumbles}}
+    <tr>
+        <td>{{team_name}}</td>
+        <td>{{avg_forced_fumbles_per_game}}</td>
+        <!-- more columns as needed -->
+    </tr>
+    {{/avgForcedFumbles}}
+    </table>
+  </div>
+</body>
+</html>

@@ -284,4 +284,3 @@ SET
   ret_int = @ret_int,
   punts = @punts,
   punt_yards = @punt_yards;
-
