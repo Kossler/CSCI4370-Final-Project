@@ -12,9 +12,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
-import com.mysql.cj.jdbc.result.ResultSetMetaData;
-
 import java.sql.SQLException;
 
 
@@ -359,8 +356,8 @@ public class WebController {
     @RequestParam("name") String name,
     @RequestParam("city") String city,
     @RequestParam("state") String state,
-    @RequestParam("yearOpened") String yearOpened,
-    @RequestParam("capacity") String capacity,
+    @RequestParam("yearOpened") int yearOpened,
+    @RequestParam("capacity") int capacity,
     @RequestParam("surface") String surface) {
       Stadium insertStadium = new Stadium(name, city, state, yearOpened, capacity, surface);
       insertStadium.insertStadium();
@@ -380,6 +377,24 @@ public class WebController {
     @RequestParam("name") String name) {
       Stadium insertStadium = new Stadium(name);
       insertStadium.removeStadium();
+      ModelAndView mv = new ModelAndView();
+      mv.setViewName("redirect:/stadiums");
+      return mv;
+  }
+
+  @GetMapping("/update_stadium")
+  public ModelAndView updateStadium() {
+    ModelAndView mv = new ModelAndView("UpdateStadium");
+    return mv;
+  }
+
+  @PostMapping("/update_stadiums")
+  public ModelAndView updateStadiums(
+    @RequestParam("name") String name,
+    @RequestParam("capacity") int capacity,
+    @RequestParam("surface") String surface) {
+      Stadium insertStadium = new Stadium(name);
+      insertStadium.updateStadium(capacity, surface);
       ModelAndView mv = new ModelAndView();
       mv.setViewName("redirect:/stadiums");
       return mv;

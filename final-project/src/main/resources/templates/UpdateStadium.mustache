@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Update Stadiums</title>
+</head>
+<body>
+  <div class="stadiums-container">
+    <h2>Update a Stadium</h2>
+    <form action="/update_stadiums" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <br/>
+            <label for="capacity">Capacity:</label><br>
+            <input type="number" id="capacity" name="capacity" required><br><br>
+            <br/>
+            <label for="surface">Surface:</label><br>
+            <input type="text" id="surface" name="surface" required><br>
+            <input type="submit" value="Submit">
+        </form>
+  </div>
+</body>
+</html>

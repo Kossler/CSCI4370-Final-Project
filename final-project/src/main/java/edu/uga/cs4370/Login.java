@@ -1,6 +1,5 @@
 package edu.uga.cs4370;
 import edu.uga.cs4370.db.DatabaseConnection;
-import edu.uga.cs4370.User;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

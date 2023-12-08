@@ -11,12 +11,12 @@ public class Stadium {
     private String name;
     private String city;
     private String state;
-    private String yearOpened;
-    private String capacity;
+    private int yearOpened;
+    private int capacity;
     private String surface;
 
 
-    public Stadium(String name, String city, String state, String yearOpened, String capacity, String surface) {
+    public Stadium(String name, String city, String state, int yearOpened, int capacity, String surface) {
         this.name = name;
         this.city = city;
         this.state = state;
@@ -37,9 +37,9 @@ public class Stadium {
         preparedStatement.setString(1, name);
         preparedStatement.setString(2, city);
         preparedStatement.setString(3, state);
-        preparedStatement.setString(4, capacity);
+        preparedStatement.setInt(4, capacity);
         preparedStatement.setString(5, surface);
-        preparedStatement.setString(6, yearOpened);
+        preparedStatement.setInt(6, yearOpened);
         preparedStatement.executeUpdate();
       } catch (SQLException e) {
         e.printStackTrace();
@@ -77,5 +77,19 @@ public class Stadium {
         // Handle exceptions
     }
   }
+
+  public void updateStadium(int capacity, String surface) {
+      String sql = "UPDATE Stadiums SET capacity = ?, surface = ? WHERE stadium_name = ?";
+      try (Connection conn = DatabaseConnection.getConnection();
+          PreparedStatement preparedStatement = conn.prepareStatement(sql)) {
+          preparedStatement.setInt(1, capacity);
+          preparedStatement.setString(2, surface);
+          preparedStatement.setString(3, name);
+          preparedStatement.executeUpdate();
+      } catch (SQLException e) {
+          e.printStackTrace();
+          // Handle exceptions
+      }
+    }
 }
 
