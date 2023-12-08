@@ -29,7 +29,7 @@ CREATE TABLE Teams(
 );
 
 CREATE TABLE Stadiums(
-  stadium_id INT PRIMARY KEY NOT NULL,
+  stadium_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
   stadium_name VARCHAR(50) NOT NULL,
   city VARCHAR(30) NOT NULL,
   state VARCHAR(2) NOT NULL,

@@ -348,13 +348,13 @@ public class WebController {
     return mv;
   }
 
-  @GetMapping("/add_stadiums")
+  @GetMapping("/add_stadium")
   public ModelAndView addStadiums() {
     ModelAndView mv = new ModelAndView("AddStadiums");
     return mv;
   }
 
-  @PostMapping("/insert_stadiums")
+  @PostMapping("/insert_stadium")
   public ModelAndView insertStadiums(
     @RequestParam("name") String name,
     @RequestParam("city") String city,
@@ -369,13 +369,13 @@ public class WebController {
       return mv;
   }
 
-  @GetMapping("/remove_stadiums")
+  @GetMapping("/remove_stadium")
   public ModelAndView removeStadiums() {
     ModelAndView mv = new ModelAndView("RemoveStadiums");
     return mv;
   }
 
-  @PostMapping("/delete_stadiums")
+  @PostMapping("/delete_stadium")
   public ModelAndView deleteStadiums(
     @RequestParam("name") String name) {
       
