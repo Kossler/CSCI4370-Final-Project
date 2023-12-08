@@ -34,11 +34,11 @@ Demo Users:
 jacob.kossler@gmail.com
 password
 
-brock.bowers@gmail.com
-password
+ladd@gmail.com
+godawgs
 
-kirby.smart@gmail.com
-password
+rara@uga.edu
+secure
 
 Technologies:
 Java
