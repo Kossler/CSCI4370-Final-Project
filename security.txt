@@ -1,1 +1,1 @@
-
+We hashed the password and generated a salt using BCrypt, a password hashing library. The password are hashed when a user registers. Then, when logging in, the hashed password will be called and BCrypt will use the salt to check if the user's entered password matches the stored hashed password.

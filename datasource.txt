@@ -1,5 +1,3 @@
 All data for this project was sourced from: https://www.kaggle.com/datasets/mhixon/college-football-statistics?select=cfbstats-com-2013-1-5-20
 
-We prepared the data sets by...
-
-We parsed the data sets by...
+We prepared the data sets by separating the players into tables by position and ensuring each column was the appropriate data type as well as removing players with empty data. Additionally, several tables had unnecessary columns removed. To keep a master list of the players, the newly processed position tables were combined into the players.csv file. We parsed the data sets by loading CSV tables into their corresponding database tables and exlcuded unneccessary columns. Python. using Pandas, was used to process and parse the tables.
