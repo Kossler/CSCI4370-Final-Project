@@ -842,11 +842,11 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1048374	465	Langham	Trent	50	FR	74.0	210.0	Garden Grove	CA	US	Pacifica, CA
 1056371	465	Lotulelei	Tau	55	FR	73.0	220.0	Kihei	HI	US	Maui HS
 1033010	465	Maka	Tani	41	SR	73.0	250.0	Long Beach	CA	US	Jordan HS
-1056391	465	Morales	Dominic		SR	71.0	235.0	Las Vegas	NV	US	College of DuPage
+1056391	465	Morales	Dominic	0	SR	71.0	235.0	Las Vegas	NV	US	College of DuPage
 1040595	465	Oroke	Prince	51	SR	73.0	240.0	Las Vegas	NV	US	Colorado School of Mines
 1056370	465	Porchia	Iggy	54	FR	74.0	210.0	Los Angeles	CA	US	Venice HS
 1032998	465	Tuiloma-Vaa	Eric	13	SR	72.0	215.0	Las Vegas	NV	US	Desert Pines HS
-1056395	465	Warren	Jason		FR	72.0	215.0	Henderson	NV	US	Coronado HS
+1056395	465	Warren	Jason	0	FR	72.0	215.0	Henderson	NV	US	Coronado HS
 1048419	466	Bertrando	Alex	56	FR	74.0	215.0	Loomis	CA	US	Del Oro HS
 1048392	466	Coates	Reggie	10	SO	73.0	240.0	Encino	CA	US	Crespi HS
 1056416	466	Concellos	Colton	51	FR	75.0	220.0	Lompoc	CA	US	Lompoc HS
@@ -1140,7 +1140,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1040616	630	Goforth	Ryan	35	JR	73.0	225.0	Long Beach	CA	US	Poly HS/Mt. San Antonio/U. of Nevada
 1057159	630	Guanella	Garrett	90	JR	77.0	235.0	Santa Rosa	CA	US	Cardinal Newman HS/Santa Rosa Junior College
 1049099	630	Kuh	Brad	33	FR	74.0	220.0	San Jose	CA	US	Bellarmine Prep
-1039556	630	Leaf	Jared		SO	74.0	238.0	Martinez	CA	US	Alhambra HS/U. of Hawai'i
+1039556	630	Leaf	Jared	0	SO	74.0	238.0	Martinez	CA	US	Alhambra HS/U. of Hawai'i
 1033749	630	Muaava	Derek	34	JR	72.0	260.0	San Jose	CA	US	Independence HS
 1049107	630	Musika	Lemaki	45	FR	73.0	265.0	Milpitas	CA	US	Milpitas HS
 1057143	630	Ossai	William	42	FR	74.0	200.0	San Jose	CA	US	Oak Grove HS
@@ -1390,9 +1390,9 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1034603	709	Killebrew	Brandon	49	SO	74.0	230.0	Washington	DC	US	Fort Scott C.C./Flowers
 1057777	709	Linch	Jack	29	FR	72.0	215.0	Toledo	OH	US	Whitmer
 1049803	709	Murdock	Chase	40	SO	72.0	215.0	Barrington	IL	US	Barrington
-1057809	709	Niswander	Austin		FR	73.0	191.0	Findlay	OH	US	Findlay
+1057809	709	Niswander	Austin	0	FR	73.0	191.0	Findlay	OH	US	Findlay
 1057780	709	Quinn	Zach	31	FR	75.0	215.0	Aurora	OH	US	Aurora
-1057810	709	Suarez	Robert		FR	71.0	200.0	Powell	OH	US	Olentangy Liberty
+1057810	709	Suarez	Robert	0	FR	71.0	200.0	Powell	OH	US	Olentangy Liberty
 1041896	709	Voss	Trent	43	SO	75.0	210.0	East Grand Rapids	MI	US	East Grand Rapids
 1049854	716	Canton	Eli	47	JR	73.0	230.0	Hernando	MS	US	Northeast Mississippi CC
 1049839	716	Coleman-Dancer	Wayland	23	SR	72.0	212.0	Renova	MS	US	Mississippi Delta CC
@@ -1541,13 +1541,13 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1050189	742	Burns	Drew	53	FR	75.0	218.0	Chesapeake	VA	US	Grassfield
 1050183	742	Clarke	Deon	40	FR	74.0	210.0	Richmond	VA	US	L.C. Bird
 1034775	742	DiNardo	Derek	41	JR	72.0	216.0	Virginia Beach	VA	US	Cox
-1050192	742	Eberly	Josh		FR	67.0	216.0	Broadway	VA	US	Broadway
+1050192	742	Eberly	Josh	0	FR	67.0	216.0	Broadway	VA	US	Broadway
 1026878	742	Edwards	Tariq	24	SR	74.0	234.0	Cheraw	SC	US	Marlboro County
 1058155	742	Huelskamp	Sean	56	FR	73.0	203.0	Centreville	VA	US	Chantilly
 1050204	742	McKinnon	Dahman	35	FR	73.0	207.0	Hope Mills	NC	US	South View
 1058153	742	Moss	Jamieon	50	FR	73.0	211.0	Elizabeth City	NC	US	Northeastern
 1058154	742	Motuapuaka	Andrew	54	FR	71.0	224.0	Virginia Beach	VA	US	Salem
-1050210	742	Taylor	Quinton		FR	73.0	200.0	Chester	VA	US	Thomas Dale
+1050210	742	Taylor	Quinton	0	FR	73.0	200.0	Chester	VA	US	Thomas Dale
 1042308	742	Trimble	Josh	32	SO	72.0	216.0	Ashburn	VA	US	Bishop Oâ??Connell
 1026896	742	Tyler	Jack	58	SR	73.0	230.0	Oakton	VA	US	Oakton
 1050212	742	Vandyke	Devin	44	FR	72.0	218.0	Lorton	VA	US	South County
@@ -1673,30 +1673,30 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1027167	796	O'Neill	Conor	13	SR	72.0	230.0	Delray Beach	FL	US	
 1050467	796	Rademacher	Jake	54	FR	73.0	235.0	Wales	WI	US	
 1050459	796	Schobert	Joe	58	SO	74.0	230.0	Waukesha	WI	US	
-1058471	811	Anaya	Ryan	22D	FR	74.0	255.0	Casper	WY	US	Natrona County
-1042618	811	Berg	Zack	8D	SO	74.0	230.0	Edmonds	WA	US	Edmonds Woodway
+1058471	811	Anaya	Ryan	0	FR	74.0	255.0	Casper	WY	US	Natrona County
+1042618	811	Berg	Zack	0	SO	74.0	230.0	Edmonds	WA	US	Edmonds Woodway
 1042615	811	Borgs	Alex	53	JR	74.0	232.0	Raesfeld		DE	Dusseldorf
 1050493	811	Hala'api'api	Siaosi	34	SO	74.0	248.0	Honolulu	HI	US	Kaimuki
 1027218	811	Harris	Devyn	43	SR	75.0	240.0	Fountain	CO	US	Fountain-Fort Carson
 1035076	811	Kankolongo	Nehemie	28	JR	71.0	212.0	Coquitlam	BC	CA	Centennial
 1058481	811	Klug	Jonathan	36	SO	74.0	198.0	Cody	WY	US	Northwest CC, Wyo.
-1058483	811	Lark	Jeff	3D	SO	74.0	213.0	Cedar Hill	TX	US	Arizona Western CC
+1058483	811	Lark	Jeff	0	SO	74.0	213.0	Cedar Hill	TX	US	Arizona Western CC
 1050499	811	Lukenbill	Brandon	47	FR	74.0	224.0	Puyallup	WA	US	Emerald Ridge
 1058485	811	McKenna	Devin	46	SO	74.0	225.0	Millstone	NJ	US	Sacred Heart University, Conn.
-1058506	811	Muhammad	Malkaam	9D	SO	72.0	228.0	St. Joseph	MO	US	Iowa Western CC
-1035069	811	Narcisse	Ruben	12D	SR	73.0	214.0	Miami	FL	US	Chaminade-Madonna Prep
+1058506	811	Muhammad	Malkaam	0	SO	72.0	228.0	St. Joseph	MO	US	Iowa Western CC
+1035069	811	Narcisse	Ruben	0	SR	73.0	214.0	Miami	FL	US	Chaminade-Madonna Prep
 1042608	811	Nzeocha	Mark	21	JR	75.0	235.0	Neusitz		DE	FOS Ansbach
 1035096	811	Puletasi	Sonny	12	JR	75.0	251.0	Lawton	OK	US	Lawton
 1035092	811	Quinlan	J.J.	44	SR	73.0	248.0	Everett	WA	US	Central Washington
-1058470	811	Stanton	Jordan	1D	JR	72.0	246.0	Palmdale	CA	US	Los Angeles Pierce CC
+1058470	811	Stanton	Jordan	0	JR	72.0	246.0	Palmdale	CA	US	Los Angeles Pierce CC
 1050497	811	Wacha	Lucas	45	FR	73.0	214.0	Texarkana	TX	US	Pleasant Grove
-1061359	2	Alaniz	Robert		FR						
+1061359	2	Alaniz	Robert	0	FR						
 1061294	2	Cantu-Harkless	Vicente	18	JR						
-1061365	2	Carreon	Patrick		FR						
-1061369	2	Davis	Torren		SO						
+1061365	2	Carreon	Patrick	0	FR						
+1061369	2	Davis	Torren	0	SO						
 1061308	2	Grady	Lynn	32	JR						
 1061318	2	Harper	Jesse	42	SR						
-1061387	2	Kister	Erick		SO						
+1061387	2	Kister	Erick	0	SO						
 1061330	2	Morrow	Derek	56	SO						
 1061323	2	Obumseli	Christian	48	FR						
 1061320	2	Oputa	Chuck	45	SO						
@@ -1704,7 +1704,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1061290	2	Rudd	Blake	13	JR						
 1061298	2	Stephens	Justin	20	JR						
 1061297	2	Summers	Chris	2	SO						
-1061399	2	Tarver II	Travis		SO						
+1061399	2	Tarver II	Travis	0	SO						
 1061351	2	Woerner	Thor	9	SR						
 1061551	6	Brower	Bryan	32	FR						
 1053945	6	Calmes	Germaine	53	SO						
@@ -1741,7 +1741,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1053500	17	Watkins	Damon	33	SO						
 1059744	17	Williams	Corey	57	JR						
 1053506	17	Williams	Jestin	39	SO						
-1061530	27	Anderson	Dustin		FR						
+1061530	27	Anderson	Dustin	0	FR						
 1038226	27	Blalock	Patrick	34	SR						
 1061513	27	Duffield	Levi	58	FR						
 1027296	27	Frazier	Michael	42	SR						
@@ -1763,16 +1763,16 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1052944	48	Bennett	Trevon	43	SO						
 1052946	48	Brown	Aaron	47	SO						
 1037791	48	Bryant	Calvin	6	SR						
-1061283	48	Harrelson	Gregory		FR						
+1061283	48	Harrelson	Gregory	0	FR						
 1052931	48	Johnson	Zack	22	SO						
 1042701	48	Johnston	Zac	25	JR						
 1061279	48	Lagroon	Rodricus	95	FR						
 1037790	48	Middlebrook	Gabe	52	JR						
 1061264	48	Ponton	Edward	54	FR						
-1061286	48	Rice	Kyle		FR						
+1061286	48	Rice	Kyle	0	FR						
 1042719	48	Ryan	Billy	49	JR						
 1061262	48	Samuels	Will	51	FR						
-1061287	48	Vickers	Anthony		FR						
+1061287	48	Vickers	Anthony	0	FR						
 1052947	48	Witzmann	Adam	48	SR						
 1060713	61	Alcutt	Rahdeese	23	JR						
 1045781	61	Dantzler	Tavarus	9	JR						
@@ -1819,18 +1819,18 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1059800	108	Saenz	Anthony	58	FR						
 1052171	108	Stibi	Brady	52	FR						
 1053574	141	Bennett	Caleb	47	FR						
-1053600	141	D'Esposito	Chris		SO						
+1053600	141	D'Esposito	Chris	0	SO						
 1053570	141	Durham	Preston	34	FR						
 1061580	141	Floyd	Tevin	43	FR						
 1036962	141	Garnett	Akeem	4	JR						
 1053579	141	Harrell	Austin	58	FR						
 1053575	141	Jurney	Taylor	48	FR						
 1053573	141	Muhammad	Rah	40	JR						
-1061605	141	Nelson	Trey		FR						
-1061607	141	Pappas	Gregory		FR						
+1061605	141	Nelson	Trey	0	FR						
+1061607	141	Pappas	Gregory	0	FR						
 1053576	141	Riley	James	49	SO						
 1046000	141	Robinson	Carl	29	JR						
-1053569	141	Shepherd	Hunter		FR						
+1053569	141	Shepherd	Hunter	0	FR						
 1046009	141	Smith	Carson	9	JR						
 1053612	141	Staton	Brandon	50	FR						
 1036972	141	Thompson	Ian	46	JR						
@@ -1886,8 +1886,8 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1052195	201	McNair	Jake	52	FR						
 1030301	201	Taylor	Antonio	15	SR						
 1035237	201	Wurm	John	35	JR						
-1059839	202	Barnes	Trevor		SR						
-1059840	202	Blue	Drexler		JR						
+1059839	202	Barnes	Trevor	0	SR						
+1059840	202	Blue	Drexler	0	JR						
 1027543	202	Brown	Anthony	4	SR						
 1059825	202	Brown	Domonick	52	FR						
 1059826	202	Canady	Jeffrey	53	FR						
@@ -1896,19 +1896,19 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1051057	202	Kelly	Chris	47	SO						
 1042969	202	Maddox	Khiry	48	JR						
 1051058	202	Piton	Marquise	51	SO						
-1051044	202	Smith	LaJuan		FR						
+1051044	202	Smith	LaJuan	0	FR						
 1051062	202	Talbert	Everett	44	FR						
 1042967	202	Vance	Ichiro	43	SR						
 1028978	207	Agen	J.C.	41	SR						
 1058683	207	Babcock	Cameron	56	FR						
-1058694	207	Deyarmin	Gaven		FR						
+1058694	207	Deyarmin	Gaven	0	FR						
 1058677	207	Gall	Jake	43	FR						
 1050587	207	Gonzalez	Cedric	53	FR						
 1043001	207	Hamlin	Ronnie	39	SR						
 1058681	207	Havili	Albert	54	FR						
 1058678	207	Kreifels	John	44	FR						
 1042991	207	McCarthy	Cody	47	JR						
-1058697	207	Storm	Zachariah		SO						
+1058697	207	Storm	Zachariah	0	SO						
 1042997	207	Talley	Jordan	20	SO						
 1050584	207	Zamora	Miquiyah	49	FR						
 1061083	228	Alexander	Curtis	54	FR						
@@ -1945,13 +1945,13 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1046061	253	Daniels	Quaun	44	JR						
 1054006	253	Flowe	Patrick	48	SO						
 1037071	253	Jackson	Edwin	40	JR						
-1061700	253	Oehlbeck	Kurt		FR						
+1061700	253	Oehlbeck	Kurt	0	FR						
 1030437	253	Oehlbeck	Kyle	38	SR						
 1030424	253	Rowe	Josh	10	SR						
 1046065	253	Shealy	Michael	43	SR						
 1061668	253	Tobler	Xavier	31	FR						
 1046058	253	Williams	Antwione	37	JR						
-1061706	253	Williams	Gerald		FR						
+1061706	253	Williams	Gerald	0	FR						
 1059864	261	Breed	Aaron	59	JR						
 1052330	261	Butler	Derwin	36	SO						
 1059861	261	Cooper	Arkez	54	FR						
@@ -2327,16 +2327,16 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1060310	647	Wamer	Michael	23	FR						
 1060318	647	Wilson	Mike	46	FR						
 1061180	649	Alipate	Mikias	58	FR						
-1061196	649	Benson	Austin								
+1061196	649	Benson	Austin	0							
 1061184	649	Bobbit	Jesse	7	FR						
-1061197	649	Custer	Christian								
+1061197	649	Custer	Christian	0							
 1051684	649	Elmore	Charles	29	SO						
 1061176	649	Gutierrez	Anthony	5	FR						
 1030615	649	Kilgore	R.C.	42	SR						
 1051688	649	Klocek	Kevin	45	JR						
 1061174	649	Krings	Blake	37	FR						
 1044826	649	Lally	T.J.	33	SO						
-1061202	649	Louscher	Kane								
+1061202	649	Louscher	Kane	0							
 1044824	649	Mason	Trent	47	SO						
 1051693	649	Meixell	Nate	52	FR						
 1051690	649	Moritko	Andy	48	FR						
@@ -2411,7 +2411,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1036184	667	Hansen	Chad	11	SR						
 1029377	667	Holley	Matt	7	JR						
 1059341	667	Kariya	Josh	43	FR						
-1059356	667	Welsh	Steve		FR						
+1059356	667	Welsh	Steve	0	FR						
 1051852	669	Bentley	Rique	46	FR						
 1037549	669	Canavan	Nick	44	SR						
 1051843	669	Cole	Dylan	31	FR						
@@ -2474,13 +2474,13 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1050793	711	Davis	Riley	38	SO						
 1050780	711	Gaddis	Monte	11	JR						
 1050801	711	Grant	Greg	64	SO						
-1059369	711	Jackson	Malik		FR						
+1059369	711	Jackson	Malik	0	FR						
 1045883	711	McCargo	Joe	40	SO						
 1050794	711	Overstreet	Fred	39	JR						
 1036412	711	Powell	Kenton	47	JR						
 1045885	711	Schuster	Eric	44	SR						
-1059374	711	Simms	James		FR						
-1059377	711	Vogelei	Zack		FR						
+1059374	711	Simms	James	0	FR						
+1059377	711	Vogelei	Zack	0	FR						
 1059392	739	Aleshinloye	Manny	56	FR						
 1059390	739	Barrett	Joe	48	FR						
 1050826	739	Calitro	Austin	45	FR						
@@ -2525,8 +2525,8 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1060950	748	Mendoza	Erick	48	FR						
 1060954	748	Okereke	Kenneth	54	FR						
 1050952	748	Pleasants	Rashon	47	FR						
-1060974	748	Riggins	Shurman		FR						
-1060979	748	Tozzi	Matt		FR						
+1060974	748	Riggins	Shurman	0	FR						
+1060979	748	Tozzi	Matt	0	FR						
 1050958	748	Wassel	Max	35	SR						
 1050889	748	Williams	Jarrid	4	SO						
 1051959	758	Holmes	Marquel	40	SO						
@@ -2551,7 +2551,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1036515	769	Stokes	Marcus	43	SR						
 1059412	769	Tate	Tommy	51	FR						
 1059413	769	Worsham	Avery	57	FR						
-1043197	771	Allen	Demetrius		JR						
+1043197	771	Allen	Demetrius	0	JR						
 1061002	771	Brott	Adam	50	FR						
 1053423	771	Butler	Devon	2	SR						
 1053433	771	Curry	Jeremy	13	JR						
@@ -2597,7 +2597,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1028842	1004	Heard	Justin	49	SR						
 1044902	1004	Holland	D.J.	46	SO						
 1052062	1004	Mason	Jazz	48	FR						
-1060658	1004	Parsons	Ty		SO						
+1060658	1004	Parsons	Ty	0	SO						
 1060637	1004	Phillips	Armani	47	FR						
 1052061	1004	Thomas	Kamane	45	FR						
 1052049	1004	Wallace	Aum'Arie	16	FR						

@@ -6,7 +6,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1054224	28	Haack	Matt	26	FR	73.0	185.0	West Des Moines	IA	US	Dowling
 1054245	28	Vizzare	Dom	99	JR	76.0	234.0	Tacoma	WA	US	
 1038531	29	Riggleman	Drew	39	SO	74.0	207.0	Tucson	AZ	US	Sahuaro HS
-1059712	30	Jones	Paul	4B							
+1059712	30	Jones	Paul	0							
 1054340	31	Baker	Toby	37	FR	75.0	197.0	Memphis	TN	US	Memphis University School
 1054363	31	Irwin-Hill	Sam	92	JR	75.0	215.0	Bendingo		AU	City College of San Francisco
 1031070	37	Clark	Steven	30	SR	77.0	230.0	Kansas City	MO	US	Park Hill
@@ -59,7 +59,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1045419	254	Hubbard	Matt	49	JR	76.0	235.0	Peachtree City	GA	US	Starr's Mill
 1023962	255	Poole	Sean	82	SR	73.0	160.0	Tallahassee	FL	US	Chiles
 1047238	255	Rodwell	Ryan	85	SO	74.0	198.0	Deland	FL	US	Deland
-1055255	255	Somers	Will		FR	73.0	185.0	Johns Creek	GA	US	Johns Creek
+1055255	255	Somers	Will	0	FR	73.0	185.0	Johns Creek	GA	US	Johns Creek
 1047251	257	Barber	Collin	32	SO	74.0	200.0	Cartersville	GA	US	Cartersville HS
 1031995	257	Erickson	Adam	97	JR	70.0	171.0	Athens	GA	US	Clarke Central
 1039545	257	Jackson	Ethan	90	SR	71.0	177.0	Sandersville	GA	US	Washington County
@@ -98,7 +98,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1056049	415	Barnard	Austin	84	FR	76.0	190.0	Fayetteville	GA	US	Whitewater HS
 1047998	415	Carroll	Ricky	27	JR	75.0	198.0	Mission Viejo	CA	US	Orange Coast College
 1056034	415	Coffman	Grant	40	FR	68.0	170.0	Dublin	OH	US	Dublin Coffman HS
-1048024	415	Costa	Zach	8C	SO						
+1048024	415	Costa	Zach	0	SO						
 1023584	415	O'Donnell	Pat	16	SR	77.0	220.0	Lake Worth	FL	US	Cincinnati/Palm Beach Central HS
 1032677	416	Sadler	Mike	3	JR	72.0	192.0	Grand Rapids	MI	US	Forest Hills Northern
 1032717	418	Hagerup	Will	43	SR	76.0	227.0	Milwaukee	WI	US	Whitefish Bay
@@ -207,7 +207,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1042242	736	Hudson	Taylor	29	SO	75.0	225.0	Powell	OH	US	Olentangy Liberty
 1042285	742	Branthover	Michael	38	JR	69.0	184.0	Dayton	MD	US	DeMatha
 1050179	742	Hughes	A.J.	27	SO	73.0	199.0	Terre Haute	IN	US	Terre Haute North Vigo
-1034762	742	Keyserling	Ethan		JR	74.0	199.0	Chapel Hill	NC	US	East Chapel Hill
+1034762	742	Keyserling	Ethan	0	JR	74.0	199.0	Chapel Hill	NC	US	East Chapel Hill
 1058149	742	Ludwig	Mitchell	30	FR	71.0	192.0	Abingdon	VA	US	Abingdon
 1050186	742	Windmuller	Hunter	46	FR	75.0	170.0	Oakton	VA	US	Flint Hill School
 1050250	746	Coleman	James	32	FR	74.0	200.0	Martinsville	VA	US	The Carlisle School
@@ -257,7 +257,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1060809	236	Pavlik	Joseph	19	FR						
 1053107	244	McMillan	Andy	48	FR						
 1037046	253	Cherry	Luke	45	JR						
-1061699	253	O'Neal	Wayne		FR						
+1061699	253	O'Neal	Wayne	0	FR						
 1052381	290	Fleck	John	37	SO						
 1043156	290	Jackson	Bryan	48	SR						
 1058737	299	Laros	CJ	36	JR						
@@ -267,7 +267,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1051275	315	MacInnes	Hamish	19	SO						
 1051313	315	Zavaglia	Dominic	97	FR						
 1059909	317	Luna	Juan	91	FR						
-1059916	317	Stiebel	John		FR						
+1059916	317	Stiebel	John	0	FR						
 1051335	346	Kahler	Kollin	25	SR						
 1051421	355	Bowden	Grant	39	SR						
 1058843	355	Turner	Trey	35	FR						
@@ -299,7 +299,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1035963	625	Peranich	Greg	95	JR						
 1061194	649	Finocchiaro	Michael	97	FR						
 1037970	649	Sawyer	Ethan	9	JR						
-1061206	649	Tjosvold	Joe								
+1061206	649	Tjosvold	Joe	0							
 1036115	654	Vucic	Joe	33	SR						
 1060418	655	Hay	Brody	36	FR						
 1036156	655	McCormick	Matt	15	SR						
@@ -314,7 +314,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1053413	692	Zinchini	Chad	92	SR						
 1036375	695	Satterfield	James	39	JR						
 1050796	711	Evangelista	Drew	90	SR						
-1059373	711	Shelly	Grayson		FR						
+1059373	711	Shelly	Grayson	0	FR						
 1028686	739	Hamilton	Mark	93	SR						
 1059399	739	Hinchen	John	94	FR						
 1053759	741	Beasley	Scott	98	FR						
@@ -328,8 +328,8 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1061020	771	Kindred	Connor	94	FR						
 1061017	771	Schmidt	RJ	91	FR						
 1028823	817	Liste	Nick	81	SR						
-1060653	1004	Adams	William		FR						
-1060654	1004	Burton	Tyler		SO						
+1060653	1004	Adams	William	0	FR						
+1060654	1004	Burton	Tyler	0	SO						
 1060632	1004	Harrison	Jonathan	29	JR						
 1059482	1068	Petroni	David	39	FR						
 1060691	1092	Holder	Dustin	90	FR						

@@ -241,7 +241,7 @@ INTO TABLE Team_Game_Statistics
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@player_id, @team_id, @last_name, @first_name, @uniform_number, @class, @height, @weight,	@dummy,	@dummy,	@dummy,	@dummy)
+(@team_id, @game_id, @rush_att, @rush_yards, @rush_td, @pass_att, @pass_comp, @pass_yards, @pass_td, @pass_int)
 SET
   team_id = @team_id,
   game_id = @game_id,
@@ -259,9 +259,8 @@ INTO TABLE Player_Game_Statistics
 FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 IGNORE 1 LINES
-(@playergame_id, @player_id, @game_id, @rush_att, @rush_yards, @rush_td, @pass_att, @pass_comp, @pass_yards, @pass_td, @pass_int, @field_goal_att, @field_goal_made, @points, @fumble, @solo_tackles, @sack, @forced_fumbles, @ret_int, @punts, @punt_yards)
+(@player_id, @game_id, @rush_att, @rush_yards, @rush_td, @pass_att, @pass_comp, @pass_yards, @pass_td, @pass_int, @rec, @rec_yards, @rec_td, @field_goal_att, @field_goal_made, @points, @fumble, @solo_tackles, @sack, @forced_fumbles, @ret_int, @punts, @punt_yards)
 SET
-  playergame_id = @playergame_id,
   player_id = @player_id,
   game_id = @game_id,
   rush_att = @rush_att,
@@ -272,6 +271,9 @@ SET
   pass_yards = @pass_yards,
   pass_td = @pass_td,
   pass_int = @pass_int,
+  rec = @rec,
+  rec_yards = @rec_yards,
+  rec_td = @rec_td,
   field_goal_att = @field_goal_att,
   field_goal_made = @field_goal_made,
   points = @points,

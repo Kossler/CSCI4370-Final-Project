@@ -79,7 +79,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1046986	193	Willoughby	Jack	95	JR	74.0	195.0	Princeton	NJ	US	Lawrenceville School
 1039256	196	Harvey	Warren	14	JR	71.0	225.0	Greenville 	NC	US	J.H. Rose
 1049538	196	Plowman	Davis	39	SO	70.0	185.0	Roswell	GA	US	Texas A&M
-1055017	196	Williams	Shawn		SO	72.0	200.0	Winston-Salem 	NC	US	North Davidson
+1055017	196	Williams	Shawn	0	SO	72.0	200.0	Winston-Salem 	NC	US	North Davidson
 1031758	204	Fulkerson	Kody	34	SR	71.0	190.0	Zanesville	OH	US	Maysville
 1047043	204	Mulder	Dylan	38	SO	72.0	186.0	Saline	MI	US	Saline
 1047042	204	Renius	Brendan	65	FR	74.0	224.0	Lambertville	MI	US	Bedford Senior
@@ -101,8 +101,8 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1052304	254	Lutz	Wil	96	SO	72.0	190.0	Newnan	GA	US	Northgate
 1045420	254	Miller	David	93	JR	71.0	172.0	Hinesville	GA	US	Bradwell Institute
 1055249	255	Butker	Harrison	87	FR	75.0	190.0	Decatur	GA	US	Westminster
-1039500	255	Chau	Andrew	8A	SO	70.0	167.0	Griffin	GA	US	Pike County
-1055253	255	Moore	Dillon		FR	73.0	168.0	College Station	TX	US	A&M Consolidated
+1039500	255	Chau	Andrew	0	SO	70.0	167.0	Griffin	GA	US	Pike County
+1055253	255	Moore	Dillon	0	FR	73.0	168.0	College Station	TX	US	A&M Consolidated
 1023952	255	Scully	David	44	SR	74.0	205.0	Dawsonville	GA	US	Dawson County
 1047274	257	Beless	Patrick	93	SO	69.0	162.0	Atlanta	GA	US	Marist
 1047245	257	Morgan	Marshall	13	SO	75.0	200.0	Ft. Lauderdale	FL	US	American Heritage HS
@@ -369,7 +369,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1034736	736	Spear	Carey	39	SR	70.0	194.0	Mayfield Village	OH	US	Mayfield
 1026887	742	Journell	Cody	89	SR	72.0	183.0	Ripplemead	VA	US	Giles
 1061537	742	Kristensen	Erik	22	FR						
-1058170	742	Warfel	R.J.		FR	70.0	164.0	Paeonian Springs	VA	US	Woodgrove
+1058170	742	Warfel	R.J.	0	FR	70.0	164.0	Paeonian Springs	VA	US	Woodgrove
 1042314	746	Frye	Ian	14	SO	78.0	195.0	Bristol	VA	US	Virginia HS
 1050248	746	Sims	Dylan	91	FR	72.0	185.0	Lynchburg	VA	US	Jefferson Forest HS
 1050222	746	van Reesema	Willem	28	FR	72.0	190.0	Virginia Beach	VA	US	Ocean Lakes HS
@@ -396,14 +396,14 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1058503	811	Barr	Matt	92	FR	72.0	180.0	Yorba Linda	CA	US	Yorba Linda
 1050496	811	Martin	Justin	39	SO	71.0	178.0	Oakdale	CA	US	Oakdale
 1042631	811	Williams	Stuart	40	JR	71.0	180.0	Nederland	CO	US	Nederland
-1035084	2	Fralick	Josh		SO						
+1035084	2	Fralick	Josh	0	SO						
 1061319	2	Grau	Nik	43	FR						
-1061377	2	Gray	Weston		FR						
-1061397	2	Scott	Tyler		FR						
+1061377	2	Gray	Weston	0	FR						
+1061397	2	Scott	Tyler	0	FR						
 1061560	6	Puente	Jordan	6	SO						
 1061542	6	Ramon	Cesar	13	FR						
 1058318	7	Louthan	Alex	85	FR						
-1061487	7	Parker	Daniel		FR						
+1061487	7	Parker	Daniel	0	FR						
 1059722	17	McCraney	Haiden	16	FR						
 1053509	17	Santillan	Ernesto	98	JR						
 1061529	27	Moore	Mason	98	FR						
@@ -435,7 +435,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1035245	201	Berra	Cameron	58	SR						
 1044383	201	Kerr	Taylor	36	JR						
 1052190	201	Meyer	Cody	61	JR						
-1051086	202	Burgy-VanHoose	Zack		SO						
+1051086	202	Burgy-VanHoose	Zack	0	SO						
 1059834	202	Lloyd	Andrew	89	JR						
 1042956	202	Pray	Luke	19	SR						
 1059829	202	Slemp	Preston	63	FR						
@@ -450,7 +450,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1037691	244	Early	Ray	39	SR						
 1061429	244	Oliver	Ian	98	FR						
 1053103	244	Townes	Hunter	16	FR						
-1061691	253	Etheridge	Nathan		FR						
+1061691	253	Etheridge	Nathan	0	FR						
 1061670	253	Flynn	Matt	35	FR						
 1054005	253	Hanks	Alex	47	SO						
 1061684	253	Koo	Younghoe	9	FR						
@@ -577,7 +577,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1050899	748	Lopez	David	59	SR						
 1050891	748	Maley	Bryan	27	JR						
 1050932	748	Molzon	Jarrod	97	JR						
-1060973	748	Rafano	Bryan		FR						
+1060973	748	Rafano	Bryan	0	FR						
 1060611	758	Fackrell	Carson	41	FR						
 1036468	758	McClain	Shaun	49	SR						
 1059422	769	Gillen	Tyler	71	SO						
@@ -597,7 +597,7 @@ Player Code	Team Code	Last Name	First Name	Uniform Number	Class	Height	Weight	Ho
 1052120	1068	Smith	Chris	92	SO						
 1060692	1092	Day	Jordan	93	SR						
 1060690	1092	Freixa	Matt	89	FR						
-1059542	1320	Wilson	Brett		FR						
+1059542	1320	Wilson	Brett	0	FR						
 1059561	2678	Strickland	Tyler	3	JR						
 1036780	2915	Inclan	Paul	41	SR						
 1059621	2915	Marvin	David	14	FR						
