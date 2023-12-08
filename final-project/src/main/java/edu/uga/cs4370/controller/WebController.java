@@ -378,7 +378,8 @@ public class WebController {
   @PostMapping("/delete_stadium")
   public ModelAndView deleteStadiums(
     @RequestParam("name") String name) {
-      
+      Stadium insertStadium = new Stadium(name);
+      insertStadium.removeStadium();
       ModelAndView mv = new ModelAndView();
       mv.setViewName("redirect:/stadiums");
       return mv;
