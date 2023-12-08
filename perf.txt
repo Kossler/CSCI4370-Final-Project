@@ -1,1 +1,17 @@
+First Query:
+SELECT P.first_name, P.last_name, T.team_name AS school, SUM(PGS.pass_yards) AS total_passing_yards FROM Player_Game_Statistics PGS JOIN Players P ON PGS.player_id = P.player_id JOIN Quarterbacks QB ON PGS.player_id = QB.player_id JOIN Teams T ON QB.team_id = T.team_id GROUP BY PGS.player_id, P.first_name, P.last_name, T.team_name ORDER BY total_passing_yards DESC LIMIT 5;
 
+Duration: 0.02178200s
+
+CREATE INDEX passing_yards ON Player_Game_Statistics(pass_yards);
+
+New Duration: 0.02118725s
+
+Second Query:
+SELECT T.team_name, ROUND(unioned_sacks.sacks / 12.0, 1) AS avg_sacks_per_game FROM Teams T JOIN (SELECT team_id, SUM(PGS.sack) AS sacks FROM Player_Game_Statistics PGS INNER JOIN (SELECT player_id, team_id FROM Quarterbacks UNION ALL SELECT player_id, team_id FROM Running_Backs UNION ALL SELECT player_id, team_id FROM Fullbacks UNION ALL SELECT player_id, team_id FROM Wide_Receivers UNION ALL SELECT player_id, team_id FROM Tight_Ends UNION ALL SELECT player_id, team_id FROM Kickers UNION ALL SELECT player_id, team_id FROM Offensive_Line UNION ALL SELECT player_id, team_id FROM Defensive_Line UNION ALL SELECT player_id, team_id FROM Linebackers UNION ALL SELECT player_id, team_id FROM Defensive_Backs UNION ALL SELECT player_id, team_id FROM Punters) AS AllPlayers ON PGS.player_id = AllPlayers.player_id GROUP BY team_id) AS unioned_sacks ON T.team_id = unioned_sacks.team_id GROUP BY T.team_id, T.team_name ORDER BY avg_sacks_per_game DESC LIMIT 5;
+
+Duration: 0.09014350s
+
+CREATE INDEX player_sacks ON Player_Game_Statistics(sack);
+
+New Duration: 0.09044600s
