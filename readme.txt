@@ -39,3 +39,13 @@ password
 
 kirby.smart@gmail.com
 password
+
+Technologies:
+Java
+Mustache
+BCrypt
+Python
+Pandas
+MySQL
+HTML
+JavaScript
